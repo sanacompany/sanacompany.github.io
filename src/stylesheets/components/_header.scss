@@ -1,1 +1,38 @@
-.header {}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 1000;
+    padding: 0 1rem;
+    width: 100%;
+    height: $header-height;
+    background-color: $white;
+
+    @media(min-width: $screen-md) {
+        height: $header-height-md;
+    }
+}
+
+    .header__content {
+        @extend %container;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header__logo {
+        width: 90px;
+        height: 24px;
+    }
+
+    .header__list {
+        display: none;
+
+        @media(min-width: $screen-md) {
+            display: flex;
+            flex-direction: row;
+        }
+    }

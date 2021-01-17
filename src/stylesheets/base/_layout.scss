@@ -104,21 +104,21 @@ ul {
 
 // Containers
 
-.container {
+.container, %container {
     margin: 0 auto;
     max-width: 1200px;
 }
 
-.container-lg {
+.container-lg, %container-lg {
     margin: 0 auto;
     max-width: 950px;
 }
 
-.container-md {
+.container-md, %container-md {
     max-width: 870px;
 }
 
-.container-sm {
+.container-sm, %container-sm {
     margin: 0 auto;
     padding: 0 2rem;
 
