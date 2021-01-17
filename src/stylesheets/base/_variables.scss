@@ -1,0 +1,75 @@
+/*------------------------------------*\
+    # Variables
+\*------------------------------------*/
+
+
+// Colors
+
+$primary:    #357ce3 !default;
+$secondary:  #ff6634 !default;
+$black:      #000000 !default;
+$white:      #ffffff !default;
+$green:      #04c434 !default;
+$yellow:     #fbbc05 !default;
+$sky-blue:   #deebff !default;
+$red:        #d0021b !default;
+$alice-blue: #f5faff !default;
+
+$gray-f8:   #f8f8f8 !default;
+$gray-df:   #dfdfdf !default;
+$gray-c4:   #c4c4c4 !default;
+$gray-97:   #979797 !default;
+$gray-4a:   #4a4a4a !default;
+
+$primary-disabled: lighten($primary, 5%) !default;
+$primary-dark: darken($primary, 5%);
+$secondary-dark: darken($secondary, 5%);
+
+$background-color: $white;
+$font-color: $black;
+
+// Screen sizes
+
+// No media query for `xs` since this app is Mobile first
+// Small devices (landscape phones, 576px and up)
+
+$mobile-sm: 320px !default;
+$mobile-md: 375px !default;
+$mobile-lg: 425px !default;
+
+$screen-sm: 576px  !default;
+$screen-md: 768px  !default;
+$screen-lg: 992px  !default;
+$screen-xl: 1200px !default;
+$screen-xxl: 1800px !default;
+
+// Border
+$border-radius-sm: 7px;
+$border-radius: 10px;
+$border-radius-lg: 30px;
+
+
+//Header sizes
+$header-height:      55px   !default;
+$header-height-md:   65px  !default;
+$header-height-searchbar:   158px  !default;
+$header-height-searchbar-sm: 124px !default; 
+
+
+// Border color
+$gray-border: 1px solid $gray-97;
+
+
+// Container sizes
+$container: 1080px !default;
+
+// Box shadow
+$box-shadow: 0 2px 5px $gray-df;
+$box-shadow-hover: 0 4px 10px $gray-df;
+$box-shadow-primary: 0 3px 6px 2px rgba(53, 124, 227, 0.25);
+
+//Z-indexes
+$search-bar-z-index: 1 !default;
+$header-z-index:     2 !default;
+$mobile-nav-z-index: 3 !default;
+$cookie-z-index:     4 !default;

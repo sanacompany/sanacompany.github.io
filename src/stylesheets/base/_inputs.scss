@@ -1,0 +1,370 @@
+$input-height-mobile: 49px;
+
+.input, %input {
+    @include font-size(16px);
+
+    padding: 1rem;
+    width: 100%;
+    height: $input-height-mobile;
+    color: $font-color;
+    background-color: $white;
+    border: 1px solid $gray-df;
+    border-radius: $border-radius-sm;
+    box-sizing: border-box;
+
+    &::placeholder {
+        color: $gray-97;
+    }
+
+    &:focus {
+        border: 1px solid $primary;
+    }
+
+    @media(min-width: $screen-md) {
+        @include font-size(20px);
+
+        height: 60px;
+    }
+}
+
+.input--icon-left {
+    padding-left: 2.5rem;
+}
+
+.input-error {
+    color: $secondary;
+}
+
+.input-textarea {
+    height: auto;
+}
+
+// Custom styles for file input
+.file {
+    display: inline-block;
+    position: relative;
+    height: $input-height-mobile;
+    cursor: pointer;
+
+    @media(min-width: $screen-md) {
+        height: 60px;
+    }
+}
+
+.file__custom {
+    @extend %input;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.file__name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: $input-height-mobile;
+    color: $font-color;
+    cursor: pointer;
+
+    > * {
+        @include font-size(16px);
+
+        padding: 1rem;
+    }
+
+    @media(min-width: $screen-md) {
+        height: 60px;
+
+        > * {
+            @include font-size(20px);
+
+            padding: 1rem;
+        }
+    }
+}
+
+.file__placeholder {
+    @include font-size(16px);
+
+    color: $gray-97;
+
+    @media(min-width: $screen-md) {
+        @include font-size(20px);
+    }
+}
+
+.file__button {
+    @include font-size(16px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 84px;
+    height: 100%;
+    color: $white;
+    text-align: center;
+    background-color: $primary;
+    border-radius: 0 $border-radius-sm $border-radius-sm 0;
+
+    @media(min-width: $screen-md) {
+        @include font-size(20px);
+
+        width: 135px;
+    }
+}
+
+.file__input {
+    opacity: 0;
+}
+
+// Custom styles for react-select async
+.async-select__control {
+    @extend %input;
+
+    height: auto !important;
+    min-height: $input-height-mobile !important;
+    border-radius: $border-radius-sm !important;
+    border-color: $gray-df !important;
+    padding: 0;
+
+    @media(min-width: $screen-md) {
+        min-height: 60px !important;
+    }
+}
+
+.async-select__control--menu-is-open {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.async-select__value-container {
+    // TODO
+}
+
+.async-select__indicators {
+    // TODO
+}
+
+.async-select__indicator-separator {
+    display: none;
+}
+
+.async-select__menu {
+    @include font-size(16px);
+
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    margin-top: 0 !important;
+    z-index: 2 !important;
+
+    @media(min-width: $screen-md) {
+        @include font-size(20px);
+    }
+
+}
+
+.async-select__menu-list {
+    // TODO
+}
+
+.async-select__option {
+    // TODO
+}
+
+// Custom styles for react-select (mini)
+.input-picker-container {
+    > * {
+        display: inline-table;
+        width: 70px;
+        height: 25px !important;
+
+        @media(min-width: $screen-md) {
+            width: 80px;
+            height: 25px !important;
+        }
+    }
+}
+
+.input-select-mini__control {
+    @include font-size(14px);
+
+    height: 25px !important;
+    min-height: 25px !important;
+    width: 70px;
+    border-radius: $border-radius-sm !important;
+    border-color: $gray-df !important;
+    padding: 0;
+
+    @media(min-width: $screen-md) {
+        @include font-size(16px);
+
+        height: 25px !important;
+        min-height: 25px !important;
+        width: 75px;
+    }
+}
+
+.input-select-mini__value-container {
+    justify-content: center;
+    height: 25px !important;
+    min-height: 25px !important;
+    padding: 0 !important;
+    overflow: visible !important;
+
+    @media(min-width: $screen-md) {
+        height: 25px !important;
+        min-height: 25px !important;
+    }
+}
+
+.input-select-mini__indicators {
+    display: none !important;
+}
+
+.input-select-mini__control--menu-is-open {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.input-select-mini__indicator-separator {
+    display: none;
+}
+
+.input-select-mini__menu {
+    @include font-size(12px);
+
+    width: 70px !important;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    margin-top: 0 !important;
+
+    @media(min-width: $screen-md) {
+        @include font-size(14px);
+
+        width: 75px !important;
+    }
+
+}
+
+
+// INPUT ICON
+.input-group {
+    display: flex;
+    position: relative;
+}
+
+.input-icon {
+    @include font-size(16px);
+
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+    height: $input-height-mobile;
+    box-sizing: border-box;
+
+    @media(min-width: $screen-md) {
+        @include font-size(20px);
+
+        height: 60px;
+    }
+}
+
+.input-icon--default {
+    color: $gray-97;
+}
+
+.input-icon--primary {
+    color: $primary;
+}
+
+.input-icon--secondary {
+    color: $secondary;
+}
+
+.input-icon--error {
+    color: $red;
+}
+
+.input-icon--left {
+    right: auto;
+    left: 0;
+}
+
+// INPUT LOCATION
+.input-location-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: $input-height-mobile;
+    z-index: 1;
+    width: 100%;
+    max-height: 228px;
+    background: $white;
+    border: 1px solid $gray-df;
+    border-radius: $border-radius-sm;
+    box-sizing: border-box;
+    overflow-y: scroll;
+
+    @media(min-width: $screen-md) {
+        top: 60px;
+    }
+}
+
+.input-location-dropdown__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $gray-f8;
+    }
+}
+
+    .input-location-dropdown__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        padding: 1rem;
+        width: 35px;
+        height: 35px;
+        background: $sky-blue;
+        border-radius: 50%;
+        box-sizing: border-box;
+
+        svg {
+            color: $primary;
+        }
+    }
+
+    .input-location-dropdown__text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-location-dropdown__text-primary {
+        @include font-size(18px);
+
+        font-weight: $font-weight-semibold;
+    }
+
+    .input-location-dropdown__text-secondary {
+        @include font-size(14px);
+        color: $gray-97;
+    }

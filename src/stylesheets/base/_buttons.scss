@@ -1,0 +1,107 @@
+/*------------------------------------*\
+    # Buttons
+\*------------------------------------*/
+
+.btn, %btn {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    vertical-align: middle;
+    cursor: pointer;
+
+    &:focus:not(.btn-elevate) {
+        box-shadow: none;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        pointer-events: all !important;
+    }
+}
+
+.btn-primary, %btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    background-color: $primary;
+    font-weight: $font-weight-bold;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: $primary-dark;
+    }
+}
+
+.btn-secondary, %btn-secondary {
+    color: $white;
+    background-color: $secondary;
+
+    &:hover {
+        background-color: $secondary-dark;
+    }
+}
+
+.btn-terciary, %btn-terciary {
+    color: $gray-97;
+    background-color: $white;
+    border: 1px solid $gray-df;
+    border-radius: 5px;
+
+    &:hover {
+        border: 1px solid $primary;
+    }
+}
+
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-sm {
+    padding: 0.5rem;
+}
+
+.btn-md {
+    padding: 1rem;
+}
+
+.btn-lg {
+    @include font-size(15px);
+    padding: 1rem 2rem;
+
+    @media(min-width: $screen-md) {
+        @include font-size(20px);
+        padding: 1.4rem 2rem;
+    }
+}
+
+.btn-label {
+    margin-left: 0.5rem;
+}
+
+.btn-circle, %btn-circle {
+    border-radius: 50%;
+}
+
+.btn-go-back {
+    @include font-size(20px);
+
+    color: $white;
+}
+
+.btn--success {
+    color: $green;
+    border: 1px solid $green;
+}
+
+.btn--primary {
+    color: $primary;
+    border: 1px solid $primary;
+}
+
+.btn--error {
+    color: $red;
+    border: 1px solid $red;
+}
