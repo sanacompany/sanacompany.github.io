@@ -1,0 +1,7 @@
+.main {
+    padding-top: $header-height;
+
+    @media(min-width: $screen-md) {
+        padding-top: $header-height-md;
+    }
+}

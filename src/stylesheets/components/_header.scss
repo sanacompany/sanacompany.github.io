@@ -8,6 +8,7 @@
     width: 100%;
     height: $header-height;
     background-color: $white;
+    border-bottom: 1px solid $gray-da;
 
     @media(min-width: $screen-md) {
         height: $header-height-md;
@@ -25,7 +26,11 @@
 
     .header__logo {
         width: 90px;
-        height: 24px;
+        height: auto;
+
+        @media(min-width: $screen-md) {
+            width: 105px;
+        }
     }
 
     .header__list {

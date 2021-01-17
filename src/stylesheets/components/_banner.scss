@@ -1,1 +1,10 @@
-.banner {}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .banner__animation {
+        width: 695px;
+        height: 463px;
+    }
