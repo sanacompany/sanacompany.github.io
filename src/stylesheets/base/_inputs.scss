@@ -8,12 +8,12 @@ $input-height-mobile: 49px;
     height: $input-height-mobile;
     color: $font-color;
     background-color: $white;
-    border: 1px solid $gray-df;
+    border: 1px solid $gray-bc;
     border-radius: $border-radius-sm;
     box-sizing: border-box;
 
     &::placeholder {
-        color: $gray-97;
+        color: $gray-bc;
     }
 
     &:focus {
@@ -94,7 +94,7 @@ $input-height-mobile: 49px;
 .file__placeholder {
     @include font-size(16px);
 
-    color: $gray-97;
+    color: $gray-bc;
 
     @media(min-width: $screen-md) {
         @include font-size(20px);
@@ -136,7 +136,7 @@ $input-height-mobile: 49px;
     height: auto !important;
     min-height: $input-height-mobile !important;
     border-radius: $border-radius-sm !important;
-    border-color: $gray-df !important;
+    border-color: $gray-bc !important;
     padding: 0;
 
     @media(min-width: $screen-md) {
@@ -204,7 +204,7 @@ $input-height-mobile: 49px;
     min-height: 25px !important;
     width: 70px;
     border-radius: $border-radius-sm !important;
-    border-color: $gray-df !important;
+    border-color: $gray-bc !important;
     padding: 0;
 
     @media(min-width: $screen-md) {
@@ -284,7 +284,7 @@ $input-height-mobile: 49px;
 }
 
 .input-icon--default {
-    color: $gray-97;
+    color: $gray-bc;
 }
 
 .input-icon--primary {
@@ -314,7 +314,7 @@ $input-height-mobile: 49px;
     width: 100%;
     max-height: 228px;
     background: $white;
-    border: 1px solid $gray-df;
+    border: 1px solid $gray-bc;
     border-radius: $border-radius-sm;
     box-sizing: border-box;
     overflow-y: scroll;
@@ -332,7 +332,7 @@ $input-height-mobile: 49px;
     cursor: pointer;
 
     &:hover {
-        background-color: $gray-f8;
+        background-color: $gray-bc;
     }
 }
 
@@ -344,7 +344,7 @@ $input-height-mobile: 49px;
         padding: 1rem;
         width: 35px;
         height: 35px;
-        background: $sky-blue;
+        background: $primary;
         border-radius: 50%;
         box-sizing: border-box;
 
@@ -366,5 +366,5 @@ $input-height-mobile: 49px;
 
     .input-location-dropdown__text-secondary {
         @include font-size(14px);
-        color: $gray-97;
+        color: $gray-bc;
     }
