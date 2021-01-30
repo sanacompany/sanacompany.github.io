@@ -10,17 +10,17 @@ export default function Header() {
         </button>
         <ul className="header__list">
           <li className="header__item">
-            <a href="#products" className="header__link">
+            <a href="#services" className="header__link">
               Services
             </a>
           </li>
           <li className="header__item">
-            <a href="#sign-in" className="header__link">
+            <a href="#portfolio" className="header__link">
               Portfolio
             </a>
           </li>
           <li className="header__item">
-            <a href="#contact" className="header__link">
+            <a href="#team" className="header__link">
               Team
             </a>
           </li>

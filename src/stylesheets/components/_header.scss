@@ -41,3 +41,12 @@
             flex-direction: row;
         }
     }
+
+    .header__item {
+        @include font-size(18px);
+        margin: 0 1.5rem;
+
+        &:hover, &.active {
+            font-weight: $font-weight-semibold;
+        }
+    }
