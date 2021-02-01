@@ -1,10 +1,48 @@
 .banner {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: 115% 100%;
+    background-image: url('../../assets/images/banner_bg.png');
+    background-repeat: no-repeat;
+
+    @media(min-width: $screen-md) {
+        background-size: 100%;
+
+        flex-direction: row;
+        align-items: flex-start;
+        height: 690px;
+    }
 }
 
+    .banner__title {
+        @include font-size(22px);
+        width: 100%;
+        font-weight: $font-weight-semibold;
+        text-align: center;
+        padding: 2rem 0;
+
+        @media(min-width: $screen-lg) {
+            @include font-size(52px);
+            padding-top: 6rem;
+            width: 281px;
+            line-height: 1.4;
+            text-align: left;
+        }
+    }
+
     .banner__animation {
-        width: 695px;
-        height: 463px;
+        width: 262px;
+        height: auto;
+
+        @media(min-width: $screen-md) {
+            width: 495px;
+            padding-top: 8rem;
+        }
+
+        @media(min-width: $screen-xl) {
+            width: 695px;
+            padding-top: 11rem;
+        }
     }

@@ -9,7 +9,7 @@ $font-family-base: 'Montserrat', sans-serif;
 
 // Sizes
 
-$font-size-base: 1rem; // 14px
+$font-size-base: 0.875rem; // 14px
 $lead-font-size: 1.5rem;
 
 // Weights
@@ -34,6 +34,10 @@ $font-weight-bold: 900;
 
 .text-primary {
     color: $primary !important;
+}
+
+.text-secondary {
+    color: $secondary !important;
 }
 
 .text-black {
