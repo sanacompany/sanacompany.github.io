@@ -1,0 +1,46 @@
+.pill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem;
+    width: 300px;
+    height: 445px;
+    background: $gray-f8;
+    border-radius: 150px;
+    box-shadow: inset 18px 15px 26px -7px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.pill__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width: 138px;
+    height: 138px;
+    background: $gray-f8;
+    border-radius: $border-radius-cirlce;
+    box-shadow: 0 6px 13px rgba(0, 0, 0, 0.1);
+}
+
+.pill__title {
+    @include font-size(15px);
+
+    margin-bottom: 0.5rem;
+    font-weight: $font-weight-semibold;
+
+    @media(min-width: $screen-md) {
+        @include font-size(18px);
+    }
+}
+
+.pill__text {
+    @include font-size(12px);
+
+    line-height: 22px;
+    text-align: center;
+
+    @media(min-width: $screen-md) {
+        @include font-size(15px);
+    }
+}
