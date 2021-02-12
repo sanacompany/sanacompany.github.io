@@ -3,7 +3,7 @@ import Header from './Header/Header'
 import Banner from './Banner/Banner'
 import Services from './Services'
 import OurTeam from './OurTeam'
-import Portfolio from './Portfolio/Portfolio'
+import Portfolio from './Portfolio'
 import Contact from './Contact/Contact'
 
 function App() {

@@ -18,7 +18,7 @@ function Pill({ icon, text, title }) {
 }
 
 Pill.propTypes = {
-  icon: PropTypes.number.isRequired,
+  icon: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired
 }

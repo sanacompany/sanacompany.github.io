@@ -1,0 +1,50 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.project-card__cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 315px;
+    height: 375px;
+
+    @media(min-width: $screen-lg) {
+        width: 470px;
+        height: 560px;
+    }
+}
+
+.project-card__image {
+    width: 200px;
+    height: 225px;
+
+    @media(min-width: $screen-lg) {
+        width: auto;
+        height: auto;
+    }
+}
+
+.project-card__name {
+    @include font-size(15px);
+
+    margin-bottom: 0.5rem;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+
+    @media(min-width: $screen-lg) {
+        @include font-size(18px);
+    }
+}
+
+.project-card__type {
+    @include font-size(15px);
+
+    @media(min-width: $screen-lg) {
+        @include font-size(18px);
+    }
+}

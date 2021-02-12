@@ -21,12 +21,13 @@
 @import 'base/helpers';
 
 //Components & Pages
-@import 'components/main';
-@import 'components/header';
 @import 'components/banner';
+@import 'components/contact';
+@import 'components/header';
+@import 'components/main';
 @import 'components/member';
-@import 'components/services';
 @import 'components/our-team';
 @import 'components/pill';
 @import 'components/portfolio';
-@import 'components/contact';
+@import 'components/project-card';
+@import 'components/services';

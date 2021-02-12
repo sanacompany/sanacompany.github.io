@@ -25,6 +25,10 @@
 
     margin-bottom: 0.5rem;
     text-transform: uppercase;
+
+    @media(min-width: $screen-lg) {
+        @include font-size(18px);
+    }
 }
 
 .member__name {
@@ -32,4 +36,8 @@
 
     font-weight: $font-weight-semibold;
     text-transform: uppercase;
+
+    @media(min-width: $screen-lg) {
+        @include font-size(18px);
+    }
 }
