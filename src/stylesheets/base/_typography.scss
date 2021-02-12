@@ -146,10 +146,13 @@ $font-weight-bold: 900;
 .section-title__title, %secondary-title {
     @include font-size(15px);
 
+    margin-top: 0.5rem;
     margin-left: -0.5rem;
     font-weight: $font-weight-bold;
 
     @media(min-width: $screen-md) {
         @include font-size(24px);
+
+        margin-top: 1rem;
     }
 }

@@ -1,4 +1,4 @@
-.services {
+.our-team {
     @extend %wrapper;
 
     display: flex;
@@ -7,24 +7,20 @@
     justify-content: center;
     margin-top: 2rem;
 
-    @media(min-width: $screen-md) {
+    @media(min-width: $screen-lg) {
         margin-top: 6rem;
     }
 }
 
-.services__list {
+.our-team__list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
 
-    > * {
-        margin-bottom: 2rem;
-    }
-
-    @media(min-width: $screen-md) {
-        flex-direction: row;
+    @media(min-width: $screen-lg) {
         justify-content: space-between;
     }
 }

@@ -9,6 +9,10 @@
     border-radius: 150px;
     box-shadow: inset 18px 15px 26px -7px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+
+    @media(min-width: $screen-md) {
+        padding: 2rem 1rem 4rem;
+    }
 }
 
 .pill__icon {
@@ -20,7 +24,7 @@
     height: 138px;
     background: $gray-f8;
     border-radius: $border-radius-cirlce;
-    box-shadow: 0 6px 13px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 13px rgba(0, 0, 0, 0.1);
 }
 
 .pill__title {

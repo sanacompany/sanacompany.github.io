@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header/Header'
 import Banner from './Banner/Banner'
 import Services from './Services'
-import Team from './Team/Team'
+import OurTeam from './OurTeam'
 import Portfolio from './Portfolio/Portfolio'
 import Contact from './Contact/Contact'
 
@@ -13,7 +13,7 @@ function App() {
       <div className="main">
         <Banner />
         <Services />
-        <Team />
+        <OurTeam />
         <Portfolio />
         <Contact />
       </div>
