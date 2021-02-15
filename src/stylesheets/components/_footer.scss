@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: $gray-f3;
+    overflow: hidden;
+
+    @media(min-width: $screen-lg) {
+        height: 420px;
+    }
+}
+
+.footer:after {
+    position: absolute;
+    top: -45px;
+    right: -10%;
+    left: -10%;
+    height: 200px;
+    background: $gray-fa;
+    border-radius: 50%;
+    content: '';
+}
+
+.footer__copyright {
+    @include font-size(12px);
+
+    margin-bottom: 2rem;
+
+    @media(min-width: $screen-md) {
+        @include font-size(15px);
+    }
+}

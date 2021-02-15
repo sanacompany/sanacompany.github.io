@@ -10,13 +10,14 @@ $secondary: #ffd400;
 $white:     #ffffff;
 $black:     #4a4a4a;
 $gray-fa:   #fafafa;
-$gray-da:   #dae1e7;
+$gray-f3:   #f3f3f3;
+$gray-da:   #dadada;
 $gray-f8:   #f8f8f8;
 $gray-bc:   #bcbcbc;
 $gray-97:   #979797;
 
-$green:      #04c434 !default;
-$yellow:     #fbbc05 !default;
+$green:     #04c434 !default;
+$yellow:    #fbbc05 !default;
 $red:       #d0021b !default;
 
 $primary-disabled: lighten($primary, 5%) !default;

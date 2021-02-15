@@ -12,6 +12,7 @@
     margin-bottom: 1rem;
     width: 315px;
     height: 375px;
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.1);
 
     @media(min-width: $screen-lg) {
         width: 470px;
@@ -21,11 +22,9 @@
 
 .project-card__image {
     width: 200px;
-    height: 225px;
 
     @media(min-width: $screen-lg) {
         width: auto;
-        height: auto;
     }
 }
 
