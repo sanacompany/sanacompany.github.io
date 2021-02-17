@@ -4,7 +4,7 @@ import Banner from './Banner/Banner'
 import Services from './Services'
 import OurTeam from './OurTeam'
 import Portfolio from './Portfolio'
-import Contact from './Contact/Contact'
+import Contact from './Contact'
 import Footer from './Footer'
 
 function App() {
