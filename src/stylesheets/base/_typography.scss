@@ -135,8 +135,9 @@ $font-weight-bold: 900;
     @include font-size(40px);
 
     margin-left: 0;
-    color: $secondary;
+    color: $seconday-transparent;
     font-weight: $font-weight-bold;
+    text-shadow: 1px 2px 3px $white, 0 0 0 $black, 1px 4px 6px $white;
 
     @media(min-width: $screen-md) {
         @include font-size(70px);
