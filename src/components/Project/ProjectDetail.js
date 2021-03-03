@@ -25,23 +25,27 @@ function ProjectDetail(props) {
       </div>
       <p className="project-details__description">{description}</p>
       {/* project images */}
-      <div className="project-detail__more-info">
-        <div>
-          <span className="project-detail__see-this">Do you want to see</span>
-          &nbsp;
-          <span className="project-detail__see-this project-detail__see-this--dark">
-            this?
-          </span>
-        </div>
-        <a
-          href={website}
-          className="project-detail__access-website"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Visit Website
-        </a>
-      </div>
+      {
+        website && (
+          <div className="project-detail__more-info">
+            <div>
+              <span className="project-detail__see-this">Do you want to see</span>
+              &nbsp;
+              <span className="project-detail__see-this project-detail__see-this--dark">
+                this?
+              </span>
+            </div>
+            <a
+              href={website}
+              className="project-detail__access-website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Visit Website
+            </a>
+          </div>
+        )
+      }
     </div>
   )
 }

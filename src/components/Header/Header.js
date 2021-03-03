@@ -1,13 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import { ReactComponent as Logo } from 'assets/images/logo.svg'
+import { HOME } from 'constants/Urls'
 
 export default function Header() {
   return (
     <div className="header">
       <div className="header__content">
-        <button type="button" className="btn header__logo-link">
+        <Link
+          className="btn header__logo-link"
+          to={HOME}
+        >
           <Logo className="header__logo" />
-        </button>
+        </Link>
         <ul className="header__list">
           <li className="header__item">
             <a href="#services" className="header__link">

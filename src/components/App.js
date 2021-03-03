@@ -9,6 +9,7 @@ import PropTypes from 'prop-types'
 import * as ROUTES from 'constants/Urls'
 import Header from 'components/Header'
 import Footer from 'components/Footer'
+import FooterInternal from 'components/Footer/FooterInternal'
 import Home from 'components/Home'
 import ProjectDetail from 'components/Project/ProjectDetailContainer'
 import ScrollToTop from 'components/Shared/ScrollToTop'
@@ -20,7 +21,7 @@ const Section = ({ children, internal }) => {
         <div className="main">
           {children}
         </div>
-        <Footer internal />
+        <FooterInternal />
       </>
     )
   }
@@ -46,8 +47,8 @@ Section.defaultProps = { internal: false }
 function App() {
   return (
     <div className="App">
-      <Header />
       <Router basename="/">
+        <Header />
         <ScrollToTop />
         <Switch>
           <Route path={ROUTES.PROJECT}>

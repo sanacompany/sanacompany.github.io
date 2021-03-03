@@ -9,7 +9,7 @@ export default [
     type: 'Website',
     cover: CoverGrupopravisani,
     color: '#EEF2F4',
-    website: 'https://google.com',
+    website: 'http://www.grupopravisani.com',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis purus mollis, dignissim neque ac, vestibulum velit. Sed pellentesque velit sit amet nulla feugiat maximus. Nulla nec ligula tempus, venenatis quam sit amet, pulvinar lacus. Aliquam nec consequat eros. In volutpat sagittis magna, et efficitur erat eleifend eget. Mauris vel suscipit quam. Duis fermentum sagittis libero in eleifend. Suspendisse scelerisque, purus at consequat tempor, neque ligula finibus magna, eget laoreet mi lectus a tellus.'
   },
   {
@@ -17,7 +17,7 @@ export default [
     type: 'Ecommerce Website',
     cover: CoverBuscoEsto,
     color: '#E0ECFE',
-    website: 'https://google.com',
+    website: 'http://buscoesto.com/',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis purus mollis, dignissim neque ac, vestibulum velit. Sed pellentesque velit sit amet nulla feugiat maximus. Nulla nec ligula tempus, venenatis quam sit amet, pulvinar lacus. Aliquam nec consequat eros. In volutpat sagittis magna, et efficitur erat eleifend eget. Mauris vel suscipit quam. Duis fermentum sagittis libero in eleifend. Suspendisse scelerisque, purus at consequat tempor, neque ligula finibus magna, eget laoreet mi lectus a tellus.'
   },
   {
@@ -25,7 +25,7 @@ export default [
     type: 'Backend & API',
     cover: CoverAsics,
     color: '#F0F0F8',
-    website: 'https://google.com',
+    website: null,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis purus mollis, dignissim neque ac, vestibulum velit. Sed pellentesque velit sit amet nulla feugiat maximus. Nulla nec ligula tempus, venenatis quam sit amet, pulvinar lacus. Aliquam nec consequat eros. In volutpat sagittis magna, et efficitur erat eleifend eget. Mauris vel suscipit quam. Duis fermentum sagittis libero in eleifend. Suspendisse scelerisque, purus at consequat tempor, neque ligula finibus magna, eget laoreet mi lectus a tellus.'
   },
   {
@@ -33,7 +33,7 @@ export default [
     type: 'Website',
     cover: CoverCaskGames,
     color: '#E5F3FE',
-    website: 'https://google.com',
+    website: null,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis purus mollis, dignissim neque ac, vestibulum velit. Sed pellentesque velit sit amet nulla feugiat maximus. Nulla nec ligula tempus, venenatis quam sit amet, pulvinar lacus. Aliquam nec consequat eros. In volutpat sagittis magna, et efficitur erat eleifend eget. Mauris vel suscipit quam. Duis fermentum sagittis libero in eleifend. Suspendisse scelerisque, purus at consequat tempor, neque ligula finibus magna, eget laoreet mi lectus a tellus.'
-  }
+  },
 ]

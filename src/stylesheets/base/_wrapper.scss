@@ -12,6 +12,7 @@
     }
 
     @media(min-width: $screen-xl) {
-        max-width: 1200px;
+        padding: 0;
+        max-width: 990px;
     }
 }
