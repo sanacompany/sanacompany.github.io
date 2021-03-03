@@ -1,7 +1,7 @@
 import React from 'react'
 
 import PROJECTS from 'constants/Projects'
-import ProjectCard from './ProjectCard'
+import ProjectCard from 'components/Project/ProjectCard'
 
 const list = PROJECTS
 

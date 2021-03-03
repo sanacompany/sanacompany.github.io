@@ -1,22 +1,28 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
+
+import { toDashCase } from 'utils/String'
 
 function ProjectCard({ project }) {
   const {
     color,
     cover,
     name,
-    type
+    type,
   } = project
 
   return (
-    <div className="project-card">
+    <Link
+      className="project-card"
+      to={`/project/${toDashCase(name)}`}
+    >
       <div className="project-card__cover" style={{ background: color }}>
         <img className="project-card__image" src={cover} alt="" />
       </div>
       <span className="project-card__name">{name}</span>
       <span className="project-card__type">{type}</span>
-    </div>
+    </Link>
   )
 }
 
@@ -25,8 +31,8 @@ ProjectCard.propTypes = {
     color: PropTypes.string.isRequired,
     cover: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    type: PropTypes.string.isRequired
-  }).isRequired
+    type: PropTypes.string.isRequired,
+  }).isRequired,
 }
 
 export default ProjectCard

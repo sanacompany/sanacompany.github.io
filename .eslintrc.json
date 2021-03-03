@@ -22,7 +22,6 @@
       "extensions": [".js", ".jsx"]}
     ],
     "semi": "off",
-    "comma-dangle": ["error", "never"],
     "object-curly-newline": ["error", { "multiline": true }]
   },
   "settings": {
