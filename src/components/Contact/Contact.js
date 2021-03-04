@@ -7,7 +7,7 @@ import IconHole from 'assets/icons/hole.png'
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="section-title">
         <h3 className="section-title__number">04</h3>
         <h4 className="section-title__title">Contact Us</h4>

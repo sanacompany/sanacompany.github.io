@@ -1,3 +1,3 @@
 export function toDashCase(string) {
-  return string.trim().replace(/\s+/g, '-').toLowerCase()
+  return string.trim().replace(/\s+/g, '-').toLowerCase().replace('/','')
 }

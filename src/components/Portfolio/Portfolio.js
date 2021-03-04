@@ -7,7 +7,7 @@ const list = PROJECTS
 
 export default function Portfolio() {
   return (
-    <div className="portfolio">
+    <div id="portfolio" className="portfolio">
       <div className="section-title">
         <h3 className="section-title__number">03</h3>
         <h4 className="section-title__title">Portfolio</h4>

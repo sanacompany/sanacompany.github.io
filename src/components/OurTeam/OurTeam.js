@@ -8,7 +8,7 @@ import Member from './Member'
 
 export default function OurTeam() {
   return (
-    <div className="our-team">
+    <div id="team" className="our-team">
       <div className="section-title">
         <h3 className="section-title__number">02</h3>
         <h4 className="section-title__title">Our Team</h4>

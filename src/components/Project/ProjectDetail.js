@@ -24,7 +24,12 @@ function ProjectDetail(props) {
         <img src={cover} alt="" className="project-detail__image" />
       </div>
       <p className="project-details__description">{description}</p>
-      {/* project images */}
+      <div
+        className="project-detail__screen-captures"
+        style={{ background: backgroundColor }}
+      >
+        {/* examples here :) */}
+      </div>
       {
         website && (
           <div className="project-detail__more-info">
@@ -56,7 +61,9 @@ ProjectDetail.propTypes = {
   description: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
-  website: PropTypes.string.isRequired,
+  website: PropTypes.string,
 }
+
+ProjectDetail.defaultProps = { website: '' }
 
 export default ProjectDetail

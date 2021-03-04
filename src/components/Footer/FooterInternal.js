@@ -1,7 +1,7 @@
 import React, { memo } from 'react'
 
 import { EMAIL, LINKEDIN } from 'constants/SocialNetwork'
-import IconLinkedin from 'assets/icons/linkedin-alt.png'
+import IconLinkedin from 'assets/icons/linkedin.png'
 
 function FooterInternal() {
   return (
@@ -25,9 +25,8 @@ function FooterInternal() {
             Follow Us:
           </span>
           <span className="footer-internal__data">
-            <a href={LINKEDIN}>
+            <a href={LINKEDIN} className="footer-internal__linkedin">
               <img
-                className="footer-internal__linkedin"
                 src={IconLinkedin}
                 alt="Linkedin link"
               />

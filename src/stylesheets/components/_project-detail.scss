@@ -1,3 +1,6 @@
+$mobile-space: 2rem;
+$desktop-space: 6rem;
+
 .project-detail {
     display: flex;
     flex-direction: column;
@@ -11,8 +14,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 2rem;
+    margin: 3rem 0 0;
     width: 100%;
+
+    @media(min-width: $screen-lg) {
+        @include font-size(36px);
+
+        margin: $desktop-space 0;
+    }
 }
 
 .project-detail__title {
@@ -30,7 +39,7 @@
 .project-detail__type {
     @include font-size(18px);
 
-    margin-bottom: 2rem;
+    margin-bottom: $mobile-space;
     color: $gray-97;
 
     @media(min-width: $screen-lg) {
@@ -42,11 +51,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: $mobile-space;
     width: 100%;
     height: 403px;
 
     @media(min-width: $screen-xl) {
+        margin-bottom: $desktop-space;
         max-width: 990px;
     }
 }
@@ -63,13 +73,25 @@
     @extend %wrapper;
     @include font-size(12px);
 
-    margin: 0 0 2rem;
+    margin: 0 0 $mobile-space;
     line-height: 25px;
 
     @media(min-width: $screen-lg) {
         @include font-size(18px);
 
+        margin-bottom: $desktop-space;
         line-height: 35px;
+    }
+}
+
+.project-detail__screen-captures {
+    margin: 0 0 $mobile-space;
+    width: 100%;
+    height: 500px;
+
+    @media(min-width: $screen-xl) {
+        margin-bottom: $desktop-space;
+        max-width: 990px;
     }
 }
 
@@ -79,6 +101,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media(min-width: $screen-lg) {
+        margin-bottom: $desktop-space;
+    }
 }
 
 .project-detail__see-this {

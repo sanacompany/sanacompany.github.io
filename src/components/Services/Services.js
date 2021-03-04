@@ -7,7 +7,7 @@ import Pill from './Pill'
 
 export default function Services() {
   return (
-    <div className="services">
+    <div id="services" className="services">
       <div className="section-title">
         <h3 className="section-title__number">01</h3>
         <h4 className="section-title__title">Our Services</h4>
