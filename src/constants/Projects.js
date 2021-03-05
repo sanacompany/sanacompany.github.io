@@ -34,6 +34,6 @@ export default [
     cover: CoverCaskGames,
     color: '#E5F3FE',
     website: null,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis purus mollis, dignissim neque ac, vestibulum velit. Sed pellentesque velit sit amet nulla feugiat maximus. Nulla nec ligula tempus, venenatis quam sit amet, pulvinar lacus. Aliquam nec consequat eros. In volutpat sagittis magna, et efficitur erat eleifend eget. Mauris vel suscipit quam. Duis fermentum sagittis libero in eleifend. Suspendisse scelerisque, purus at consequat tempor, neque ligula finibus magna, eget laoreet mi lectus a tellus.',
+    description: 'Cask games is a portfolio website for a famous Game Designer. I have to design all the different screens. The client asked me to use a special platform to deploy my designs: Squarespace. I created a personal template allowing him to add new elements to his portfolio through the platform.',
   },
 ]

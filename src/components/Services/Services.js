@@ -15,12 +15,12 @@ export default function Services() {
       <div className="services__list">
         <Pill
           icon={ImagePlan}
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque massa nec posuere tincidunt. Morbi vitae massa pharetra, dapibus turpis a, aliquet nisl."
+          text="We create fully customized solutions, so communication and adaptation to changes is one of our factors to highlight."
           title="Plan"
         />
         <Pill
           icon={ImageDesgin}
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque massa nec posuere tincidunt. Morbi vitae massa pharetra, dapibus turpis a, aliquet nisl."
+          text="We develop applications based on the identity of the organization and the idea it wants to convey, with total emphasis on the user experience when designing and developing a solution."
           title="Design"
         />
         <Pill
