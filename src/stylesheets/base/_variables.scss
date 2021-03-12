@@ -5,16 +5,18 @@
 
 // Colors
 
-$primary:   #54e4c5;
-$secondary: #ffd400;
-$white:     #ffffff;
-$black:     #4a4a4a;
-$gray-fa:   #fafafa;
-$gray-f3:   #f3f3f3;
-$gray-da:   #dadada;
-$gray-f8:   #f8f8f8;
-$gray-bc:   #bcbcbc;
-$gray-97:   #979797;
+$primary:          #54e4c5 !default;
+$secondary:        #ffd400 !default;
+$white:            #ffffff !default;
+$black:            #4a4a4a !default;
+$gray-fa:          #fafafa !default;
+$gray-f3:          #f3f3f3 !default;
+$gray-da:          #dadada !default;
+$gray-f8:          #f8f8f8 !default;
+$gray-bc:          #bcbcbc !default;
+$gray-97:          #979797 !default;
+$primary-shadow:   #28c7a4 !default;
+$secondary-shadow: #cd8e00 !default;
 
 $green:     #04c434 !default;
 $yellow:    #fbbc05 !default;
@@ -24,9 +26,9 @@ $primary-disabled: lighten($primary, 5%) !default;
 $primary-dark: darken($primary, 5%);
 $secondary-dark: darken($secondary, 5%);
 
-$seconday-transparent: rgba(259, 216, 0, 0.9);
+$seconday-transparent: rgba(255, 212, 0, 0.9);
 
-$background-color: $white;
+$background-color: $gray-fa;
 $font-color: $black;
 
 // Screen sizes
@@ -53,7 +55,7 @@ $border-radius-cirlce: 50%;
 
 //Header sizes
 $header-height:      60px   !default;
-$header-height-md:   80px  !default;
+$header-height-md:   65px  !default;
 $header-height-searchbar:   158px  !default;
 $header-height-searchbar-sm: 124px !default;
 
@@ -66,7 +68,7 @@ $gray-border: 1px solid $gray-bc;
 $container: 1080px !default;
 
 // Box shadow
-$box-shadow: 0 2px 5px $gray-bc;
+$box-shadow: 0 6px 12px $gray-bc;
 $box-shadow-hover: 0 4px 10px $gray-bc;
 $box-shadow-primary: 0 3px 6px 2px rgba(53, 124, 227, 0.25);
 

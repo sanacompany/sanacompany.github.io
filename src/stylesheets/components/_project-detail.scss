@@ -20,7 +20,7 @@ $desktop-space: 6rem;
     @media(min-width: $screen-lg) {
         @include font-size(36px);
 
-        margin: $desktop-space 0;
+        margin: 8rem 0 4rem;
     }
 }
 
@@ -128,9 +128,9 @@ $desktop-space: 6rem;
     padding: 1rem 4rem;
     color: $white;
     font-weight: $font-weight-semibold;
-    text-shadow: 0 2px 4px $gray-bc;
+    text-shadow: 0 2px 4px $primary-shadow;
     background: $primary;
-    box-shadow: inset 2px 2px 8px $gray-bc;
+    box-shadow: inset 2px 2px 8px $primary-shadow;
 
     @media(min-width: $screen-lg) {
         @include font-size(18px);

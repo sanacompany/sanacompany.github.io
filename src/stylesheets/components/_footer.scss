@@ -9,7 +9,7 @@
     overflow: hidden;
 
     @media(min-width: $screen-lg) {
-        height: 420px;
+        height: 500px;
     }
 }
 
@@ -27,7 +27,7 @@
 .footer__copyright {
     @include font-size(12px);
 
-    margin-bottom: 2rem;
+    margin-bottom: 7rem;
 
     @media(min-width: $screen-md) {
         @include font-size(15px);

@@ -128,7 +128,7 @@ $font-weight-bold: 900;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .section-title__number, %secondary-title {
@@ -137,7 +137,7 @@ $font-weight-bold: 900;
     margin-left: 0;
     color: $seconday-transparent;
     font-weight: $font-weight-bold;
-    text-shadow: 1px 2px 3px $white, 0 0 0 $black, 1px 4px 6px $white;
+    text-shadow: 1px 2px 3px $white, 0 0 0 $secondary-shadow, 1px 4px 6px $white;
 
     @media(min-width: $screen-md) {
         @include font-size(70px);

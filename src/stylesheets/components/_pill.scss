@@ -7,7 +7,7 @@
     height: 445px;
     background: $gray-f8;
     border-radius: 150px;
-    box-shadow: inset 18px 15px 26px -7px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 2px 2px 8px -1px rgba($black, 0.1);
     box-sizing: border-box;
 
     @media(min-width: $screen-md) {
