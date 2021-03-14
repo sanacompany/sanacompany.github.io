@@ -27,6 +27,15 @@
     box-shadow: 0 10px 13px rgba(0, 0, 0, 0.1);
 }
 
+    .pill__img {
+        width: auto;
+        height: 65px;
+    }
+
+    .pill__img--design {
+        padding-left: 0.5rem;
+    }
+
 .pill__title {
     @include font-size(15px);
 

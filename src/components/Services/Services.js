@@ -22,6 +22,7 @@ export default function Services() {
           icon={ImageDesgin}
           text="We develop applications based on the identity of the organization and the idea it wants to convey, with total emphasis on the user experience when designing and developing a solution."
           title="Design"
+          className="pill__img--design"
         />
         <Pill
           icon={ImageCode}
