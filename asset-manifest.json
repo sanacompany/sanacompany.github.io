@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a1512a7.chunk.css",
-    "main.js": "/static/js/main.88ef7283.chunk.js",
-    "main.js.map": "/static/js/main.88ef7283.chunk.js.map",
+    "main.css": "/static/css/main.fa36174c.chunk.css",
+    "main.js": "/static/js/main.69eca322.chunk.js",
+    "main.js.map": "/static/js/main.69eca322.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f8433565.js",
     "runtime-main.js.map": "/static/js/runtime-main.f8433565.js.map",
     "static/js/2.7e49048e.chunk.js": "/static/js/2.7e49048e.chunk.js",
@@ -10,23 +10,24 @@
     "static/js/3.aba66b3c.chunk.js": "/static/js/3.aba66b3c.chunk.js",
     "static/js/3.aba66b3c.chunk.js.map": "/static/js/3.aba66b3c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4a1512a7.chunk.css.map": "/static/css/main.4a1512a7.chunk.css.map",
+    "static/css/main.fa36174c.chunk.css.map": "/static/css/main.fa36174c.chunk.css.map",
     "static/js/2.7e49048e.chunk.js.LICENSE.txt": "/static/js/2.7e49048e.chunk.js.LICENSE.txt",
     "static/media/application.scss": "/static/media/banner_bg.24f367b3.png",
-    "static/media/colo.bf3fba1a.png": "/static/media/colo.bf3fba1a.png",
-    "static/media/cover.8e441792.png": "/static/media/cover.8e441792.png",
-    "static/media/cover.a3c150fc.png": "/static/media/cover.a3c150fc.png",
-    "static/media/cover.b4d42eab.png": "/static/media/cover.b4d42eab.png",
-    "static/media/cover.e8d0dfa1.png": "/static/media/cover.e8d0dfa1.png",
-    "static/media/fran.cd77df94.png": "/static/media/fran.cd77df94.png",
+    "static/media/colo.db4d0032.png": "/static/media/colo.db4d0032.png",
+    "static/media/cover.6ed83b9c.png": "/static/media/cover.6ed83b9c.png",
+    "static/media/cover.c59b80f0.png": "/static/media/cover.c59b80f0.png",
+    "static/media/cover.f001ec12.png": "/static/media/cover.f001ec12.png",
+    "static/media/cover.f79d5178.png": "/static/media/cover.f79d5178.png",
+    "static/media/fran.bf68f2e0.png": "/static/media/fran.bf68f2e0.png",
     "static/media/logo.3584e9e3.svg": "/static/media/logo.3584e9e3.svg",
-    "static/media/maria.22d9a030.png": "/static/media/maria.22d9a030.png",
-    "static/media/santi.e882e738.png": "/static/media/santi.e882e738.png"
+    "static/media/maria.22ca2c9a.png": "/static/media/maria.22ca2c9a.png",
+    "static/media/plan.81456681.png": "/static/media/plan.81456681.png",
+    "static/media/santi.dedb2948.png": "/static/media/santi.dedb2948.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f8433565.js",
     "static/js/2.7e49048e.chunk.js",
-    "static/css/main.4a1512a7.chunk.css",
-    "static/js/main.88ef7283.chunk.js"
+    "static/css/main.fa36174c.chunk.css",
+    "static/js/main.69eca322.chunk.js"
   ]
 }
