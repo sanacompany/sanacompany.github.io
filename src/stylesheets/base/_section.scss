@@ -1,0 +1,16 @@
+.section, %section {
+    @extend %wrapper;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    @media(min-width: $screen-md) {
+        margin-top: -6rem;
+        margin-bottom: 6rem;
+        padding-top: 6rem;
+    }
+}

@@ -54,3 +54,8 @@
             font-weight: $font-weight-semibold;
         }
     }
+
+    .header__link--active {
+        font-weight: $font-weight-semibold;
+        border-bottom: 2px solid $black;
+    }
