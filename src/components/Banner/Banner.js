@@ -53,8 +53,8 @@ export default function Banner() {
       </div>
       <LottiePlayer animationData={animationData} className="banner__animation" />
       {FIGURES.map((figure) => (
-        <div className={`banner__figure banner__figure--${figure.name}`}>
-          <img src={figure.image} alt="" />
+        <div key={`3d-figure-${figure.name}`} className={`banner__figure banner__figure--${figure.name}`}>
+          <img src={figure.image} alt="3d animated figure" />
         </div>
       ))}
     </div>

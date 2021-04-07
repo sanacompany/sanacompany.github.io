@@ -37,7 +37,7 @@ const Section = ({ children, internal }) => {
 }
 
 Section.propTypes = {
-  children: PropTypes.number.isRequired,
+  children: PropTypes.node.isRequired,
   internal: PropTypes.bool,
 }
 
