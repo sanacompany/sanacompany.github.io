@@ -7,6 +7,11 @@
     justify-content: center;
     position: relative;
     overflow: visible;
+
+    @media(min-width: $screen-md) {
+        margin-top: -6rem;
+        padding-top: 6rem;
+    }
 }
 
 .contact__note {
@@ -16,10 +21,19 @@
     position: absolute;
     bottom: -200px;
     z-index: $note-z-index;
+    width: calc(100% - 2rem);
     height: 240px;
     background: $white;
     box-shadow: $box-shadow;
     box-sizing: border-box;
+
+    @media(min-width: $mobile-md) {
+        width: calc(100% - 3rem);
+    }
+
+    @media(min-width: $screen-sm) {
+        width: 400px;
+    }
 
     @media(min-width: $screen-lg) {
         bottom: -325px;

@@ -3,6 +3,7 @@
     align-items: flex-end;
     justify-content: center;
     position: relative;
+    margin-top: 2rem;
     width: 100%;
     height: 300px;
     background: $gray-f3;
@@ -27,7 +28,7 @@
 .footer__copyright {
     @include font-size(12px);
 
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 
     @media(min-width: $screen-md) {
         @include font-size(15px);
