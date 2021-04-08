@@ -12,36 +12,36 @@ import animationData from './animation.json'
 const FIGURES = [
   {
     name: 'ball',
-    image: BallFigure,
+    image: BallFigure
   },
   {
     name: 'green-plus',
-    image: GreenPlusFigure,
+    image: GreenPlusFigure
   },
   {
     name: 'yellow-plus',
-    image: YellowPlusFigure,
+    image: YellowPlusFigure
   },
   {
     name: 'green-plus-2',
-    image: GreenPlusFigure,
+    image: GreenPlusFigure
   },
   {
     name: 'yellow-plus-2',
-    image: YellowPlusFigure,
+    image: YellowPlusFigure
   },
   {
     name: 'green-round',
-    image: GreenRoundFigure,
+    image: GreenRoundFigure
   },
   {
     name: 'yellow-round',
-    image: YellowRoundFigure,
+    image: YellowRoundFigure
   },
   {
     name: 'pyramid',
-    image: PyramidFigure,
-  },
+    image: PyramidFigure
+  }
 ]
 
 export default function Banner() {
@@ -53,7 +53,10 @@ export default function Banner() {
       </div>
       <LottiePlayer animationData={animationData} className="banner__animation" />
       {FIGURES.map((figure) => (
-        <div key={`3d-figure-${figure.name}`} className={`banner__figure banner__figure--${figure.name}`}>
+        <div
+          key={`3d-figure-${figure.name}`}
+          className={`banner__figure banner__figure--${figure.name}`}
+        >
           <img src={figure.image} alt="3d animated figure" />
         </div>
       ))}
