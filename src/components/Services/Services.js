@@ -20,13 +20,13 @@ export default function Services() {
         />
         <Pill
           icon={ImageDesgin}
-          text="We develop applications based on the identity of the organization and the idea it wants to convey, with total emphasis on the user experience when designing and developing a solution."
+          text="We design applications based on the identity of the organization and the idea that wants to convey, with total emphasis on the User Experience."
           title="Design"
           className="pill__img--design"
         />
         <Pill
           icon={ImageCode}
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque massa nec posuere tincidunt. Morbi vitae massa pharetra, dapibus turpis a, aliquet nisl."
+          text="With the latest technologies and paying special attention to details, we deliver the best solution to our clients."
           title="Code"
         />
       </div>
