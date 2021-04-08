@@ -16,6 +16,7 @@ function Member({ name, picture, hover, position }) {
 
   return (
     <div className="member">
+      <div className="member__shadow" />
       <img
         className="member__picture"
         ref={imgRef}
