@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f8234e5.chunk.css",
-    "main.js": "/static/js/main.c9b62668.chunk.js",
-    "main.js.map": "/static/js/main.c9b62668.chunk.js.map",
+    "main.css": "/static/css/main.40a054a1.chunk.css",
+    "main.js": "/static/js/main.80b38839.chunk.js",
+    "main.js.map": "/static/js/main.80b38839.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e583b9c.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e583b9c.js.map",
     "static/js/2.392f7393.chunk.js": "/static/js/2.392f7393.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6bf67b47.chunk.js": "/static/js/3.6bf67b47.chunk.js",
     "static/js/3.6bf67b47.chunk.js.map": "/static/js/3.6bf67b47.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6f8234e5.chunk.css.map": "/static/css/main.6f8234e5.chunk.css.map",
+    "static/css/main.40a054a1.chunk.css.map": "/static/css/main.40a054a1.chunk.css.map",
     "static/js/2.392f7393.chunk.js.LICENSE.txt": "/static/js/2.392f7393.chunk.js.LICENSE.txt",
     "static/media/application.scss": "/static/media/banner_bg.24f367b3.png",
     "static/media/colo-hover.f5c5fd4d.png": "/static/media/colo-hover.f5c5fd4d.png",
@@ -19,6 +19,13 @@
     "static/media/cover.c59b80f0.png": "/static/media/cover.c59b80f0.png",
     "static/media/cover.f001ec12.png": "/static/media/cover.f001ec12.png",
     "static/media/cover.f79d5178.png": "/static/media/cover.f79d5178.png",
+    "static/media/element-1.05fdc30a.png": "/static/media/element-1.05fdc30a.png",
+    "static/media/element-1.53531b5e.png": "/static/media/element-1.53531b5e.png",
+    "static/media/element-1.73cad223.png": "/static/media/element-1.73cad223.png",
+    "static/media/element-1.e3d9aa7e.png": "/static/media/element-1.e3d9aa7e.png",
+    "static/media/element-2.21c37e7f.png": "/static/media/element-2.21c37e7f.png",
+    "static/media/element-2.b41c72a9.png": "/static/media/element-2.b41c72a9.png",
+    "static/media/element-2.d55246f1.png": "/static/media/element-2.d55246f1.png",
     "static/media/fran-hover.a9bd9967.png": "/static/media/fran-hover.a9bd9967.png",
     "static/media/fran.bf68f2e0.png": "/static/media/fran.bf68f2e0.png",
     "static/media/logo.3584e9e3.svg": "/static/media/logo.3584e9e3.svg",
@@ -32,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.0e583b9c.js",
     "static/js/2.392f7393.chunk.js",
-    "static/css/main.6f8234e5.chunk.css",
-    "static/js/main.c9b62668.chunk.js"
+    "static/css/main.40a054a1.chunk.css",
+    "static/js/main.80b38839.chunk.js"
   ]
 }
