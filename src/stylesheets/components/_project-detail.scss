@@ -47,25 +47,17 @@ $desktop-space: 6rem;
     }
 }
 
-.project-detail__cover {
+.project-detail__image {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: $mobile-space;
     width: 100%;
-    height: 403px;
+    height: auto;
 
     @media(min-width: $screen-xl) {
         margin-bottom: $desktop-space;
         max-width: 990px;
-    }
-}
-
-.project-detail__image {
-    max-width: 230px;
-
-    @media(min-width: $screen-lg) {
-        max-width: auto;
     }
 }
 

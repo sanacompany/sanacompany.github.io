@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 function ProjectDetail(props) {
-  const { backgroundColor, elements, name, type, website } = props
+  const { elements, name, type, website } = props
 
   return (
     <div className="project-detail">
@@ -13,9 +13,7 @@ function ProjectDetail(props) {
 
       {elements.map((element) => (
         <div>
-          <div className="project-detail__cover" style={{ background: backgroundColor }}>
-            <img src={element.image} alt="" className="project-detail__image" />
-          </div>
+          <img src={element.image} alt="" className="project-detail__image" />
           <p className="project-details__description">{element.description}</p>
         </div>
       ))}
@@ -42,8 +40,7 @@ function ProjectDetail(props) {
 }
 
 ProjectDetail.propTypes = {
-  backgroundColor: PropTypes.string.isRequired,
-  elements: PropTypes.array.isRequired,
+  elements: PropTypes.arrayOf(PropTypes.object).isRequired,
   name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   website: PropTypes.string,
