@@ -1,0 +1,108 @@
+.pill-design__figure {
+    position: absolute;
+    animation: float 3s infinite;
+}
+
+.pill-design__figure--invested {
+    animation: float-invested 3s infinite;
+}
+
+// 56x66
+.pill-design__figure--ball {
+    top: 6rem;
+    left: 6rem;
+
+    img {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+// 56x66
+.pill-design__figure--ball-2 {
+    top: 3.5rem;
+    left: 6.5rem;
+
+    img {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+// 52x52
+.pill-design__figure--green-plus {
+    top: 4rem;
+    left: 5rem;
+
+    img {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+// 48x48
+.pill-design__figure--yellow-plus {
+    top: 5rem;
+    left: 8rem;
+
+    img {
+        width: 7px;
+        height: 7px;
+    }
+}
+
+// 52x52
+.pill-design__figure--green-plus-2 {
+    top: 3rem;
+    left: 9.5rem;
+
+    img {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+// 48x48
+.pill-design__figure--yellow-plus-2 {
+    top: 7rem;
+    left: 7.5rem;
+
+    img {
+        width: 7px;
+        height: 7px;
+    }
+}
+
+// 70x70
+.pill-design__figure--yellow-round {
+    top: 1rem;
+    left: 7rem;
+
+    img {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+// 58x58
+.pill-design__figure--green-round {
+    top: 7.5rem;
+    left: 8.7rem;
+
+    img {
+        width: 7px;
+        height: 7px;
+    }
+}
+
+// 106x141
+.pill-design__figure--pyramid {
+    top: 1.5rem;
+    left: 5rem;
+
+    img {
+        width: 13px;
+        height: 13px;
+        transform: rotate(45deg);
+    }
+}

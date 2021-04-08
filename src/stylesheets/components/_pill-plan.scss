@@ -1,0 +1,96 @@
+.pill-plan__figure {
+    position: absolute;
+    animation: float 3s infinite;
+}
+
+.pill-plan__figure--invested {
+    animation: float-invested 3s infinite;
+}
+
+// 56x66
+.pill-plan__figure--ball {
+    top: 3.5rem;
+    right: 5.5rem;
+
+    img {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+// 52x52
+.pill-plan__figure--green-plus {
+    top: 2rem;
+    left: 6rem;
+
+    img {
+        width: 7px;
+        height: 7px;
+    }
+}
+
+// 48x48
+.pill-plan__figure--yellow-plus {
+    top: 4.5rem;
+    left: 6rem;
+
+    img {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+// 52x52
+.pill-plan__figure--green-plus-2 {
+    top: 2.5rem;
+    left: 9.5rem;
+
+    img {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+// 48x48
+.pill-plan__figure--yellow-plus-2 {
+    top: 5rem;
+    right: 7rem;
+
+    img {
+        width: 11px;
+        height: 11px;
+    }
+}
+
+// 70x70
+.pill-plan__figure--yellow-round {
+    top: 1rem;
+    left: 11rem;
+
+    img {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+// 58x58
+.pill-plan__figure--green-round {
+    top: 4rem;
+    left: 12rem;
+
+    img {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+// 106x141
+.pill-plan__figure--pyramid {
+    top: 6rem;
+    left: 7rem;
+
+    img {
+        width: 14px;
+        height: 14px;
+    }
+}

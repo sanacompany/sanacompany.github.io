@@ -1,0 +1,198 @@
+.pill-code__figure {
+    position: absolute;
+    animation: float 3s infinite;
+}
+
+.pill-code__figure--invested {
+    animation: float-invested 3s infinite;
+}
+
+// Left
+// 70x70
+.pill-code__figure--yellow-round {
+    top: 7.2rem;
+    left: 0.8rem;
+
+    img {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+// 106x141
+.pill-code__figure--pyramid {
+    top: 8.7rem;
+    left: 1rem;
+
+    img {
+        width: 9px;
+        height: 9px;
+        transform: rotate(-20deg);
+    }
+}
+
+// 56x66
+.pill-code__figure--ball {
+    top: 8rem;
+    left: 2.5rem;
+
+    img {
+        width: 12px;
+        height: 12px;
+        transform: rotate(-90deg);
+    }
+}
+
+// 52x52
+.pill-code__figure--green-plus {
+    top: 9.5rem;
+    left: 3.2rem;
+
+    img {
+        width: 6px;
+        height: 6px;
+        transform: rotate(35deg);
+    }
+}
+
+// 56x66
+.pill-code__figure--ball-2 {
+    top: 9rem;
+    left: 4.5rem;
+
+    img {
+        width: 9px;
+        height: 9px;
+        transform: rotate(-90deg);
+    }
+}
+
+// 48x48
+.pill-code__figure--yellow-plus {
+    top: 7rem;
+    left: 5.2rem;
+
+    img {
+        width: 6px;
+        height: 6px;
+        transform: rotate(30deg);
+    }
+}
+
+// 48x48
+.pill-code__figure--yellow-plus-2 {
+    top: 8.5rem;
+    left: 6.5rem;
+
+    img {
+        width: 6px;
+        height: 6px;
+        transform: rotate(30deg);
+    }
+}
+
+// 58x58
+.pill-code__figure--green-round {
+    top: 7rem;
+    left: 7rem;
+
+    img {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+// Right
+// 70x70
+.pill-code__figure--yellow-round-2 {
+    top: 7.2rem;
+    right: 0.8rem;
+
+    img {
+        width: 9px;
+        height: 9px;
+    }
+}
+
+// 106x141
+.pill-code__figure--pyramid-2 {
+    top: 8.8rem;
+    right: 1rem;
+
+    img {
+        width: 9px;
+        height: 9px;
+        transform: scaleX(-1);
+    }
+}
+
+// 56x66
+.pill-code__figure--ball-3 {
+    top: 8rem;
+    right: 2.2rem;
+
+    img {
+        width: 12px;
+        height: 12px;
+        transform: scale(-1);
+    }
+}
+
+// 52x52
+.pill-code__figure--green-plus-2 {
+    top: 9.5rem;
+    right: 3.2rem;
+
+    img {
+        width: 6px;
+        height: 6px;
+        transform: rotate(60deg);
+    }
+}
+
+// 56x66
+.pill-code__figure--ball-4 {
+    top: 9rem;
+    right: 4.2rem;
+
+    img {
+        width: 9px;
+        height: 9px;
+        transform: scale(-1);
+    }
+}
+
+// 48x48
+.pill-code__figure--yellow-plus-3 {
+    top: 7rem;
+    right: 5.2rem;
+
+    img {
+        width: 6px;
+        height: 6px;
+        transform: rotate(30deg) scale(-1);
+    }
+}
+
+// 48x48
+.pill-code__figure--yellow-plus-4 {
+    top: 8.5rem;
+    right: 6.5rem;
+
+    img {
+        width: 6px;
+        height: 6px;
+        transform: rotate(30deg) scale(-1);
+    }
+}
+
+// 58x58
+.pill-code__figure--green-round-2 {
+    top: 7rem;
+    right: 7rem;
+
+    img {
+        width: 6px;
+        height: 6px;
+    }
+}
