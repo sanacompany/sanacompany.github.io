@@ -52,14 +52,18 @@ export default function Banner() {
         <span className="banner__title text-secondary"> true</span>
       </div>
       <LottiePlayer animationData={animationData} className="banner__animation" />
-      {FIGURES.map((figure) => (
-        <div
-          key={`3d-figure-${figure.name}`}
-          className={`banner__figure banner__figure--${figure.name}`}
-        >
-          <img src={figure.image} alt="3d animated figure" />
-        </div>
-      ))}
+      {FIGURES.map((figure, index) => {
+        const even = index % 2 === 0
+
+        return (
+          <div
+            key={`3d-figure-${figure.name}`}
+            className={`banner__figure ${even ? 'banner__figure--invested' : ''} banner__figure--${figure.name}`}
+          >
+            <img src={figure.image} alt="3d animated figure" />
+          </div>
+        )
+      })}
     </div>
   )
 }

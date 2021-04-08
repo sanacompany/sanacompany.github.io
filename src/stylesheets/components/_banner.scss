@@ -71,6 +71,10 @@ $banner-shadow: #bfd9e5 !default;
         animation: float 3s infinite;
     }
 
+    .banner__figure--invested {
+        animation: float-invested 3s infinite;
+    }
+
     // 56x66
     .banner__figure--ball {
         top: 7rem;
