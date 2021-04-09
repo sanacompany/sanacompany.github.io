@@ -1,30 +1,32 @@
-import React, { useRef } from 'react'
+import React, { useCallback, useState } from 'react'
 import PropTypes from 'prop-types'
 
 function Member({ name, picture, hover, position }) {
-  const imgRef = useRef(null)
+  const [image, setImage] = useState(picture)
 
-  const hoverPicture = () => {
-    imgRef.current.src = hover
-    return imgRef
-  }
+  const hoverPicture = useCallback(
+    () => setImage(hover),
+    [hover],
+  )
 
-  const originalPicture = () => {
-    imgRef.current.src = picture
-    return imgRef
-  }
+  const originalPicture = useCallback(
+    () => setImage(picture),
+    [picture],
+  )
 
   return (
-    <div className="member">
+    <div
+      className="member"
+      onFocus={hoverPicture}
+      onHover={hoverPicture}
+      onBlur={originalPicture}
+      onMouseOver={hoverPicture}
+      onMouseOut={originalPicture}
+    >
       <div className="member__shadow" />
       <img
         className="member__picture"
-        ref={imgRef}
-        src={picture}
-        onFocus={hoverPicture}
-        onBlur={originalPicture}
-        onMouseOver={hoverPicture}
-        onMouseOut={originalPicture}
+        src={image}
         alt="Member ilustration"
       />
       <span className="member__position">{position}</span>

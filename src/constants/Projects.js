@@ -1,21 +1,27 @@
 // Grupo Pravisani
-import CoverGrupopravisani from 'assets/images/projects/grupopravisani/cover.png'
+import CoverGrupopravisani from 'assets/images/projects/grupopravisani/cover.jpg'
 import GrupoElement1 from 'assets/images/projects/grupopravisani/element-1.png'
 import GrupoElement2 from 'assets/images/projects/grupopravisani/element-2.png'
 
 // Busco Esto
-import CoverBuscoEsto from 'assets/images/projects/buscoesto/cover.png'
+import CoverBuscoEsto from 'assets/images/projects/buscoesto/cover.jpg'
 import BuscoElement1 from 'assets/images/projects/buscoesto/element-1.png'
 import BuscoElement2 from 'assets/images/projects/buscoesto/element-2.png'
 
 // Acics
-import CoverAsics from 'assets/images/projects/asics/cover.png'
+import CoverAsics from 'assets/images/projects/asics/cover.jpg'
 import AsicsElement1 from 'assets/images/projects/asics/element-1.png'
 
 // Cask Games
-import CoverCaskGames from 'assets/images/projects/caskGames/cover.png'
+import CoverCaskGames from 'assets/images/projects/caskGames/cover.jpg'
 import CaskElement1 from 'assets/images/projects/caskGames/element-1.png'
 import CaskElement2 from 'assets/images/projects/caskGames/element-2.png'
+
+// Nalla
+import CoverNalla from 'assets/images/projects/nalla/cover.jpg'
+import NallaElement1 from 'assets/images/projects/nalla/element-1.jpg'
+import NallaElement2 from 'assets/images/projects/nalla/element-2.jpg'
+import NallaElement3 from 'assets/images/projects/nalla/element-3.jpg'
 
 export default [
   {
@@ -23,7 +29,6 @@ export default [
     slug: 'grupo-pravisani',
     type: 'Website',
     cover: CoverGrupopravisani,
-    color: '#EEF2F4',
     website: 'https://www.grupopravisani.com',
     elements: [
       {
@@ -39,7 +44,6 @@ export default [
     slug: 'busco-esto',
     type: 'Ecommerce Website',
     cover: CoverBuscoEsto,
-    color: '#E0ECFE',
     website: 'https://buscoesto.com/',
     elements: [
       {
@@ -58,7 +62,6 @@ export default [
     slug: 'asics-ohzi',
     type: 'Backend & API',
     cover: CoverAsics,
-    color: '#F0F0F8',
     website: null,
     elements: [
       {
@@ -77,7 +80,6 @@ export default [
     slug: 'cask-games',
     type: 'Website / Frontend',
     cover: CoverCaskGames,
-    color: '#E5F3FE',
     website: 'https://caskgames.com/',
     elements: [
       {
@@ -88,6 +90,29 @@ export default [
       {
         image: CaskElement2,
         description: '',
+      },
+    ],
+  },
+  {
+    name: 'Nalla',
+    slug: 'nalla',
+    type: 'Mobile App & Machine Learning',
+    cover: CoverNalla,
+    elements: [
+      {
+        image: NallaElement1,
+        description:
+          '1) Nalla is a mobile app targeted for South Korea. With Nalla you are able to reserve bikes in a smart way.  Our client asked to make major changes in the mobile app and deploy it in both stores, AppStore and Play Store.',
+      },
+      {
+        image: NallaElement2,
+        description:
+          '2) One of the biggest changes we made was in their Dashboard application built in ReactJS and Django. We created a complete region search and filtering so the client can target bikes stations accordingly. We also included a statistics module, so the client can check the status of the App.',
+      },
+      {
+        image: NallaElement3,
+        description:
+          '3) We built from scratch a Machine Learning prediction using Tensorflow. The prediction module informs to the user how many bikes slots will be available in the following minutes / hours.',
       },
     ],
   },

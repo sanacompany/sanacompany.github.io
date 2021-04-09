@@ -9,6 +9,7 @@
     height: $header-height;
     background-color: $white;
     border-bottom: 1px solid $gray-da;
+    box-sizing: border-box;
 
     @media(min-width: $screen-md) {
         height: $header-height-md;
