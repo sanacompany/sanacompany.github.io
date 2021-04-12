@@ -9,6 +9,7 @@ function ProjectCard({ project }) {
     <Link className="project-card" to={`/project/${slug}`}>
       <div className="project-card__cover" style={{ background: color }}>
         <img className="project-card__image" src={cover} alt={name} />
+        <div className="project-card__shadow" />
       </div>
       <span className="project-card__name">{name}</span>
       <span className="project-card__type">{type}</span>

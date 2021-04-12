@@ -8,10 +8,6 @@ import CoverBuscoEsto from 'assets/images/projects/buscoesto/cover.jpg'
 import BuscoElement1 from 'assets/images/projects/buscoesto/element-1.png'
 import BuscoElement2 from 'assets/images/projects/buscoesto/element-2.png'
 
-// Acics
-import CoverAsics from 'assets/images/projects/asics/cover.jpg'
-import AsicsElement1 from 'assets/images/projects/asics/element-1.png'
-
 // Cask Games
 import CoverCaskGames from 'assets/images/projects/caskGames/cover.jpg'
 import CaskElement1 from 'assets/images/projects/caskGames/element-1.png'
@@ -54,24 +50,6 @@ export default [
       {
         image: BuscoElement2,
         description: 'This project has been designed and developed responsively by Sanacompany.',
-      },
-    ],
-  },
-  {
-    name: 'Asics / Ohzi',
-    slug: 'asics-ohzi',
-    type: 'Backend & API',
-    cover: CoverAsics,
-    website: null,
-    elements: [
-      {
-        image: AsicsElement1,
-        description:
-          'This is a collaboration project we worked alongside our last long partner: Ohzi. Specifically, for this project we had to write a Backend solution (Ruby on Rails) for generating reports taking information from several tests performed on athletes.',
-      },
-      {
-        image: AsicsElement1,
-        description: 'Another taks involved to develop some screens in their Electron App.',
       },
     ],
   },

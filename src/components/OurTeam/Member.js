@@ -1,6 +1,8 @@
 import React, { useCallback, useState } from 'react'
 import PropTypes from 'prop-types'
 
+const MARIA = 'María'
+
 function Member({ name, picture, hover, position }) {
   const [image, setImage] = useState(picture)
 
@@ -16,7 +18,7 @@ function Member({ name, picture, hover, position }) {
 
   return (
     <div
-      className="member"
+      className={`member  ${name === MARIA ? 'member--maria' : ''}`}
       onFocus={hoverPicture}
       onHover={hoverPicture}
       onBlur={originalPicture}

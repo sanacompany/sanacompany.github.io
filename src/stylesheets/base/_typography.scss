@@ -128,7 +128,11 @@ $font-weight-bold: 900;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+
+    @media(min-width: $screen-md) {
+        margin-bottom: 4rem;
+    }
 }
 
 .section-title__number, %secondary-title {

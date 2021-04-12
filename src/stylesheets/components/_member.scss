@@ -2,14 +2,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
     margin-bottom: 2rem;
+    min-width: 150px;
+    min-height: 215px;
+
+    @media(min-width: $screen-lg) {
+        min-width: 223px;
+        min-height: 275px;
+    }
+}
+
+.member--maria {
+    &:hover {
+        img {
+            margin-left: 20px;
+        }
+    }
+
+    @media(min-width: $screen-lg) {
+        &:hover {
+            img {
+                margin-left: 26px;
+            }
+        }
+    }
 }
 
 .member__shadow {
     position: absolute;
-    top: 0;
+    top: 12px;
     z-index: $search-bar-z-index;
     width: 150px;
     height: 150px;
@@ -17,22 +40,22 @@
     box-shadow: inset 2px 2px 8px -1px rgba($black, 0.1);
 
     @media(min-width: $screen-lg) {
-        width: 209px;
-        height: 209px;
+        width: 191px;
+        height: 191px;
     }
 }
 
-// 522x522
+// 522x522 37%
 .member__picture {
     margin-bottom: 0.5rem;
-    width: 150px;
-    height: 150px;
-    background: $gray-f8;
-    // border-radius: $border-radius-cirlce;
+    width: 170px;
+    height: 162px;
+    position: absolute;
+    top: 0;
 
     @media(min-width: $screen-lg) {
-        min-width: 209px;
-        min-height: 209px;
+        min-width: 223px;
+        min-height: 204px;
     }
 }
 
