@@ -17,14 +17,14 @@
 .member--maria {
     &:hover {
         img {
-            margin-left: 20px;
+            left: -2px;
         }
     }
 
     @media(min-width: $screen-lg) {
         &:hover {
             img {
-                margin-left: 26px;
+                left: 13px;
             }
         }
     }
@@ -45,7 +45,7 @@
     }
 }
 
-// 522x522 37%
+// 522x522
 .member__picture {
     margin-bottom: 0.5rem;
     width: 170px;
@@ -55,7 +55,7 @@
 
     @media(min-width: $screen-lg) {
         min-width: 223px;
-        min-height: 204px;
+        min-height: 205px;
     }
 }
 
