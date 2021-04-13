@@ -21,18 +21,26 @@ import NallaElement3 from 'assets/images/projects/nalla/element-3.jpg'
 
 export default [
   {
-    name: 'Grupo Pravisani',
-    slug: 'grupo-pravisani',
-    type: 'Website',
-    cover: CoverGrupopravisani,
-    website: 'https://www.grupopravisani.com',
+    name: 'Nalla',
+    slug: 'nalla',
+    type: 'Mobile App & Machine Learning',
+    cover: CoverNalla,
     elements: [
       {
-        image: GrupoElement1,
+        image: NallaElement1,
         description:
-          'This project is part of a series of brand changes for an Assurance company. We redesigned the entire company image from its logo to their new website. The complete redesign project included changes from backend to frontend. Our designer provided all illustrations drawn by herself.',
+          '1) Nalla is a mobile app targeted for South Korea. With Nalla you are able to reserve bikes in a smart way.  Our client asked to make major changes in the mobile app and deploy it in both stores, AppStore and Play Store.',
       },
-      { image: GrupoElement2 },
+      {
+        image: NallaElement2,
+        description:
+          '2) One of the biggest changes we made was in their Dashboard application built in ReactJS and Django. We created a complete region search and filtering so the client can target bikes stations accordingly. We also included a statistics module, so the client can check the status of the App.',
+      },
+      {
+        image: NallaElement3,
+        description:
+          '3) We built from scratch a Machine Learning prediction using Tensorflow. The prediction module informs to the user how many bikes slots will be available in the following minutes / hours.',
+      },
     ],
   },
   {
@@ -54,6 +62,21 @@ export default [
     ],
   },
   {
+    name: 'Grupo Pravisani',
+    slug: 'grupo-pravisani',
+    type: 'Website',
+    cover: CoverGrupopravisani,
+    website: 'https://www.grupopravisani.com',
+    elements: [
+      {
+        image: GrupoElement1,
+        description:
+          'This project is part of a series of brand changes for an Assurance company. We redesigned the entire company image from its logo to their new website. The complete redesign project included changes from backend to frontend. Our designer provided all illustrations drawn by herself.',
+      },
+      { image: GrupoElement2 },
+    ],
+  },
+  {
     name: 'Cask Games Portfolio',
     slug: 'cask-games',
     type: 'Website / Frontend',
@@ -68,29 +91,6 @@ export default [
       {
         image: CaskElement2,
         description: '',
-      },
-    ],
-  },
-  {
-    name: 'Nalla',
-    slug: 'nalla',
-    type: 'Mobile App & Machine Learning',
-    cover: CoverNalla,
-    elements: [
-      {
-        image: NallaElement1,
-        description:
-          '1) Nalla is a mobile app targeted for South Korea. With Nalla you are able to reserve bikes in a smart way.  Our client asked to make major changes in the mobile app and deploy it in both stores, AppStore and Play Store.',
-      },
-      {
-        image: NallaElement2,
-        description:
-          '2) One of the biggest changes we made was in their Dashboard application built in ReactJS and Django. We created a complete region search and filtering so the client can target bikes stations accordingly. We also included a statistics module, so the client can check the status of the App.',
-      },
-      {
-        image: NallaElement3,
-        description:
-          '3) We built from scratch a Machine Learning prediction using Tensorflow. The prediction module informs to the user how many bikes slots will be available in the following minutes / hours.',
       },
     ],
   },
