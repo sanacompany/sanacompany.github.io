@@ -25,7 +25,7 @@ export default function Services() {
         <Pill
           animations={<DesignAnimations />}
           icon={ImageDesgin}
-          text="We design applications based on the identity of the organization and the idea that wants to convey, with total emphasis on the User Experience."
+          text="We design applications based on the identity of the client and the idea that wants to convey, with total emphasis on the UX."
           title="Design"
           className="pill__img--design"
         />
