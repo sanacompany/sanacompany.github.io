@@ -8,7 +8,7 @@ function Pill({ animations, icon, text, title, className }) {
         <img src={icon} className={`pill__img ${className}`} alt="" />
       </div>
       <span className="pill__title">{title}</span>
-      <p className="pill__text">{text}</p>
+      <div className="pill__text">{text}</div>
       {animations}
     </div>
   )
@@ -19,7 +19,7 @@ Pill.propTypes = {
   icon: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  className: PropTypes.string
+  className: PropTypes.string,
 }
 
 export default memo(Pill)
