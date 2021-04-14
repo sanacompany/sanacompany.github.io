@@ -19,11 +19,14 @@ $banner-shadow: #bfd9e5 !default;
     }
 
     @media(min-width: $screen-lg) {
-        height: 740px;
         background-size: 100%;
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
+    }
+
+    @media(min-width: $screen-xl) {
+        height: 740px;
     }
 }
 
