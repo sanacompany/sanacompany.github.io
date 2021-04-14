@@ -15,17 +15,13 @@
 }
 
 .member--maria {
-    &:hover {
-        img {
-            left: -2px;
-        }
+    img {
+        left: -2px;
     }
 
     @media(min-width: $screen-lg) {
-        &:hover {
-            img {
-                left: 13px;
-            }
+        img {
+            left: 13px;
         }
     }
 }
