@@ -50,6 +50,7 @@ $banner-shadow: #bfd9e5 !default;
     .banner__animation {
         width: 262px;
         height: auto;
+        filter: drop-shadow(0px 8px 5px $banner-shadow);
 
         @media(min-width: $screen-md) {
             padding-top: 4rem;
@@ -58,12 +59,11 @@ $banner-shadow: #bfd9e5 !default;
 
         @media(min-width: $screen-lg) {
             padding-top: 11rem;
-            filter: drop-shadow(0px 8px 5px $banner-shadow);
         }
 
         @media(min-width: $screen-xl) {
-            width: 695px;
             padding-top: 11rem;
+            width: 695px;
         }
     }
 
