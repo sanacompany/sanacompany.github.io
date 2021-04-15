@@ -1,6 +1,10 @@
 .footer-internal {
     display: flex;
     flex-direction: column;
+
+    @media(min-width: $screen-lg) {
+        margin: 0 3rem;
+    }
 }
 
 .footer-internal__wrapper {
