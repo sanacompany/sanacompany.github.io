@@ -12,7 +12,7 @@ function ProjectDetail(props) {
       </div>
 
       {elements.map((element) => (
-        <div>
+        <div className="project-detail__element">
           <img src={element.image} alt="" className="project-detail__image" />
           <p className="project-details__description">{element.description}</p>
         </div>

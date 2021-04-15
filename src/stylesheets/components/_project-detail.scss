@@ -47,6 +47,13 @@ $desktop-space: 6rem;
     }
 }
 
+.project-detail__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .project-detail__image {
     display: flex;
     align-items: center;
