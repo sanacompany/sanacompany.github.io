@@ -29,17 +29,17 @@ export default [
       {
         image: NallaElement1,
         description:
-          '1) Nalla is a mobile app targeted for South Korea. With Nalla you are able to reserve bikes in a smart way.  Our client asked to make major changes in the mobile app and deploy it in both stores, AppStore and Play Store.',
+          'Nalla is a mobile app targeted for South Korea. With Nalla you are able to reserve bikes in a smart way.  Our client asked to make major changes in the mobile app and deploy it in both stores, AppStore and Play Store.',
       },
       {
         image: NallaElement2,
         description:
-          '2) One of the biggest changes we made was in their Dashboard application built in ReactJS and Django. We created a complete region search and filtering so the client can target bikes stations accordingly. We also included a statistics module, so the client can check the status of the App.',
+          'One of the biggest changes we made was in their Dashboard application built in ReactJS and Django. We created a complete region search and filtering so the client can target bikes stations accordingly. We also included a statistics module, so the client can check the status of the App.',
       },
       {
         image: NallaElement3,
         description:
-          '3) We built from scratch a Machine Learning prediction using Tensorflow. The prediction module informs to the user how many bikes slots will be available in the following minutes / hours.',
+          'We built from scratch a Machine Learning prediction using Tensorflow. The prediction module informs to the user how many bikes slots will be available in the following minutes / hours.',
       },
     ],
   },
