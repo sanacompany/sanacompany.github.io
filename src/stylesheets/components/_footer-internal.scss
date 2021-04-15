@@ -14,11 +14,11 @@
 
     @media(min-width: $screen-md) {
         margin: 3rem 1.5rem;
-        width: 100%;
     }
 
     @media(min-width: $screen-lg) {
         margin: 3rem auto;
+        width: 100%;
     }
 }
 
