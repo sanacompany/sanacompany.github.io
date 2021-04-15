@@ -1,17 +1,17 @@
 // Grupo Pravisani
 import CoverGrupopravisani from 'assets/images/projects/grupopravisani/cover.jpg'
-import GrupoElement1 from 'assets/images/projects/grupopravisani/element-1.png'
-import GrupoElement2 from 'assets/images/projects/grupopravisani/element-2.png'
+import GrupoElement1 from 'assets/images/projects/grupopravisani/element-1.jpg'
+import GrupoElement2 from 'assets/images/projects/grupopravisani/element-2.jpg'
 
 // Busco Esto
 import CoverBuscoEsto from 'assets/images/projects/buscoesto/cover.jpg'
-import BuscoElement1 from 'assets/images/projects/buscoesto/element-1.png'
-import BuscoElement2 from 'assets/images/projects/buscoesto/element-2.png'
+import BuscoElement1 from 'assets/images/projects/buscoesto/element-1.jpg'
+import BuscoElement2 from 'assets/images/projects/buscoesto/element-2.jpg'
 
 // Cask Games
 import CoverCaskGames from 'assets/images/projects/caskGames/cover.jpg'
-import CaskElement1 from 'assets/images/projects/caskGames/element-1.png'
-import CaskElement2 from 'assets/images/projects/caskGames/element-2.png'
+import CaskElement1 from 'assets/images/projects/caskGames/element-1.jpg'
+import CaskElement2 from 'assets/images/projects/caskGames/element-2.jpg'
 
 // Nalla
 import CoverNalla from 'assets/images/projects/nalla/cover.jpg'

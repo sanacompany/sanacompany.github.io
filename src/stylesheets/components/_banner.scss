@@ -6,7 +6,7 @@ $banner-shadow: #bfd9e5 !default;
     align-items: center;
     justify-content: flex-start;
     background-size: 115% 100%;
-    background-image: url('../../assets/images/banner_bg.png');
+    background-image: url('../../assets/images/banner_bg_mobile.png');
     background-repeat: no-repeat;
     height: 100%;
     min-height: 320px;
@@ -20,6 +20,7 @@ $banner-shadow: #bfd9e5 !default;
 
     @media(min-width: $screen-lg) {
         background-size: 100%;
+        background-image: url('../../assets/images/banner_bg.png');
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
