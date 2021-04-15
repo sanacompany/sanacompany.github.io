@@ -23,6 +23,11 @@
 
     @media(min-width: $screen-lg) {
         margin-bottom: 3rem;
+        width: 376px;
+        height: 448px;
+    }
+
+    @media(min-width: $screen-xl) {
         width: 470px;
         height: 560px;
     }
