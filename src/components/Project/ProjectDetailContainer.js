@@ -11,13 +11,15 @@ export default function ProjectDetailContainer() {
 
   if (!info) return 'Not Found :('
 
-  const { color, elements, name: projectName, type, website } = info
+  const { appStore, color, elements, name: projectName, playStore, type, website } = info
 
   return (
     <ProjectDetail
+      appStore={appStore}
       backgroundColor={color}
       name={projectName}
       elements={elements}
+      playStore={playStore}
       type={type}
       website={website}
     />

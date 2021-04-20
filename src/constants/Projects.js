@@ -25,6 +25,8 @@ export default [
     slug: 'nalla',
     type: 'Mobile App & Machine Learning',
     cover: CoverNalla,
+    playStore: 'https://play.google.com/store/apps/details?id=com.wheelsidekick.wheelsidekick',
+    appStore: 'https://apps.apple.com/kr/app/%EB%82%A0%EB%9D%BC-nalla-%EA%B3%B5%EA%B3%B5%EC%9E%90%EC%A0%84%EA%B1%B0-%EC%9E%AC%EB%B0%B0%EC%B9%98-%EC%86%94%EB%A3%A8%EC%85%98/id1487479336',
     elements: [
       {
         image: NallaElement1,

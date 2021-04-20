@@ -22,6 +22,13 @@ $green:     #04c434 !default;
 $yellow:    #fbbc05 !default;
 $red:       #d0021b !default;
 
+$app-store-light: #5dc4f6;
+$app-store-dark: #3870ea;
+$app-store-shadow: #0a55c8;
+
+$app-store-gradient: linear-gradient(180deg, $app-store-light 0%, $app-store-dark 100%);
+$app-store-text-shadow: 0 2px 4px rgba($app-store-shadow, 0.1);
+
 $primary-disabled: lighten($primary, 5%) !default;
 $primary-dark: darken($primary, 5%);
 $secondary-dark: darken($secondary, 5%);
