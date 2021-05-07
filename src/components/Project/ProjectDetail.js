@@ -39,51 +39,51 @@ function ProjectDetail(props) {
         </div>
       )}
 
-      {
-        (playStore || appStore) && (
-          <div className="project-detail__more-info">
-            <div>
-              <span className="project-detail__see-this">Do you want to see</span>
-              &nbsp;
-              <span className="project-detail__see-this project-detail__see-this--dark">this?</span>
-            </div>
-            <div className="project-detail__store-buttons">
-              {
-                playStore && (
-                  <a
-                    href={playStore}
-                    className="project-detail__store-button project-detail__store-button--play-store"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="project-detail__store-button-content project-detail__store-button-content--play-store">
-                      <img src={PlayStoreIcon} className="project-detail__store-icon" alt="Google Play Store logo" />
-                      &nbsp;
-                      Visit Google Store
-                    </div>
-                  </a>
-                )
-              }
-              {
-                appStore && (
-                  <a
-                    href={appStore}
-                    className="project-detail__store-button project-detail__store-button--app-store"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="project-detail__store-button-content project-detail__store-button-content--app-store">
-                      <img src={AppStoreIcon} className="project-detail__store-icon" alt="App Store logo" />
-                      &nbsp;
-                      Visit App Store
-                    </div>
-                  </a>
-                )
-              }
-            </div>
+      {(playStore || appStore) && (
+        <div className="project-detail__more-info">
+          <div>
+            <span className="project-detail__see-this">Do you want to see</span>
+            &nbsp;
+            <span className="project-detail__see-this project-detail__see-this--dark">this?</span>
           </div>
-        )
-      }
+          <div className="project-detail__store-buttons">
+            {playStore && (
+              <a
+                href={playStore}
+                className="project-detail__store-button project-detail__store-button--play-store"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={PlayStoreIcon}
+                  className="project-detail__store-icon"
+                  alt="Google Play Store logo"
+                />
+                <span className="project-detail__store-text project-detail__store-text--play-store">
+                  Visit Google Store
+                </span>
+              </a>
+            )}
+            {appStore && (
+              <a
+                href={appStore}
+                className="project-detail__store-button project-detail__store-button--app-store"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={AppStoreIcon}
+                  className="project-detail__store-icon"
+                  alt="App Store logo"
+                />
+                <span className="project-detail__store-text project-detail__store-text--app-store">
+                  Visit App Store
+                </span>
+              </a>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
