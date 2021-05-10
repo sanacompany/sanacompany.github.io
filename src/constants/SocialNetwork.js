@@ -1,2 +1,2 @@
 export const EMAIL = 'info@sanacompany.io'
-export const LINKEDIN = 'https://linkedin.com/sanacompany'
+export const LINKEDIN = 'https://www.linkedin.com/company/sanacompany'
