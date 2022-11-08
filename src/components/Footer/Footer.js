@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <span className="footer__copyright">
-        {`${year} © All rights reserved. Sanacompany.`}
+        {`${year} © All rights reserved. SANA IT SOLUTIONS LLC.`}
       </span>
     </div>
   )
