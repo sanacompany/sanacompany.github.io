@@ -1,0 +1,102 @@
+# SANA
+
+> SANA is a physical-AI and applied-AI engineering firm. We ship LLM agents, vision-language models, autonomous navigation, robot teleoperation, and edge-inference systems to production. 50+ projects shipped. Florida HQ, Seoul office.
+
+## Receipts
+
+- 50+ projects shipped across applied AI, robotics, and connected systems
+- 9,000+ hours of open-sourced real-world robot teleoperation data (FrodoBots-2K + Berkeley-FrodoBots-7K)
+- Co-author in IEEE Robotics & Automation Magazine ("Lessons Learned From the Earth Rover Challenge at IROS 2024", DOI 10.1109/MRA.2025.3565211)
+- Co-organizers of three IROS 2026 robotics challenges (Earth Rover, Robotic Origami, Humanoid IKEA Assembly) in Pittsburgh, alongside researchers from Google DeepMind, NYU, Princeton, NUS, Georgia Tech, Meta AI, UMD, GMU
+- Contributors to the open-source Earth Rovers SDK (github.com/frodobots-org/earth-rovers-sdk), used by AI labs at UC Berkeley, NUS, UT Austin
+
+Note: Competitions and datasets are organized by the FrodoBots-led coalition with our founder Santiago Pravisani as co-organizer and IEEE co-author. SANA does not claim sole authorship.
+
+## Three pillars
+
+1. Applied AI: LLM agents, RAG, vision-language models, evals, fine-tuning, real-time inference.
+2. Robotics & Embodied AI: autonomous navigation, teleoperation, SLAM, fleet management, data pipelines. Methods: VLA models, imitation learning, sim-to-real, foundation policies. SOTA models like GeNIE (winner, Earth Rover Challenge 2025) run on our open-source Earth Rovers SDK.
+3. Connected & Edge Systems: on-device inference, sensor streaming, control loops, BLE/MQTT telemetry. Stack: BLE, MQTT, WebRTC, AWS IoT Core, NMEA 2000.
+
+## Leadership
+
+- Santiago Pravisani, CEO and co-founder. IEEE co-author. Core engineer at FrodoBots. IROS 2026 co-organizer. Earth Rovers SDK contributor.
+- Esteban Fuhrmann, CTO and co-founder. Architecture and delivery across every SANA project.
+- Minjoo Koo, COO. Runs operations from Seoul.
+
+## Engagement models
+
+- Scoping sprint (1 to 2 weeks, fixed price): audit, architecture, costed plan.
+- Build (3 to 6 months, T&M or milestone): we ship to production.
+- Long-term partnership (monthly retainer): maintenance, scaling, new features, on-call.
+
+## Capabilities deep-dives
+
+- /capabilities/robotics-ai (Robotics & Embodied AI long-form)
+- /ko/capabilities/robotics-ai (same in Korean)
+
+## Selected work
+- [Tocaro Blue](https://sanacompany.io/project/tocaro): BLE-connected mobile and web platform for monitoring boats, fleets and vehicles in real time.
+- [Earth Rovers](https://sanacompany.io/project/earth-rovers): A fleet of autonomous terrestrial rovers running ROS-based perception, custom SLAM and a teleoperation interface.
+- [Wimbledon Hill](https://sanacompany.io/project/wimbledon-hill): A web-based virtual experience for Wimbledon 2021 and 2022, supporting 10,000+ concurrent users.
+- [Ultimate Fighting Bots](https://sanacompany.io/project/ufb): Real humanoid robots fighting in a physical arena, driven by players worldwide. SANA built the real-time remote-control system and the room-based game frontend.
+- [The Rivals](https://sanacompany.io/project/rivals): A business simulation game built end-to-end by SANA, featuring an AI opponent that adapts to player strategy.
+- [Nalla](https://sanacompany.io/project/nalla): A Korean public-bicycle redistribution platform with a TensorFlow-based prediction model and a custom dashboard.
+- [Leeloo](https://sanacompany.io/project/leeloo): A 3D AI agent that streams 24/7 on Twitch, Kick and X, replying to chat with voice and facial expression in real time.
+- [UEFA Virtual Events](https://sanacompany.io/project/uefa): A virtual environment for UEFA Champions League fans worldwide, with avatars, trivia, challenges and live rewards.
+- [Snapcell · TradePending](https://sanacompany.io/project/tradepending): Innovative video communication platform for automotive dealerships, acquired by TradePending in 2023.
+- [Sanctions Center](https://sanacompany.io/project/sanctions-center): Platform simplifying access to global sanctions and export-control information for compliance and legal teams.
+- [Beyond Med](https://sanacompany.io/project/beyond-med): Health and wellness membership platform offering treatments traditional insurance doesn't cover.
+- [The Makers](https://sanacompany.io/project/makers): Lightweight business simulation, sibling to The Rivals, designed for accessibility.
+
+## Contact
+
+- Email: santiago@sanacompany.io (Santiago reads every enquiry personally; replies within one business day)
+- General: info@sanacompany.io
+- Korean enquiries: korea@sanacompany.kr
+- LinkedIn: https://www.linkedin.com/company/sanacompany
+- Florida HQ: 4855 West Hillsboro Boulevard, B3. Coconut Creek, FL 33073, USA
+- Seoul office: 서울특별시 강남구 강남대로112길 47
+
+
+## 한국어
+
+SANA는 물리적 AI와 응용 AI 엔지니어링 회사입니다. LLM 에이전트, 비전-언어 모델, 자율 주행, 로봇 텔레오퍼레이션, 엣지 추론 시스템을 운영 환경까지 배포합니다. 50건 이상 출시. 미국 플로리다 본사, 한국 서울 오피스.
+
+### 신뢰성
+
+- 50+ 프로젝트 출시
+- 9,000시간 이상의 오픈 소스 로봇 텔레오퍼레이션 데이터(FrodoBots-2K, Berkeley-FrodoBots-7K)
+- IEEE Robotics & Automation Magazine 공동 저자 ("Lessons Learned From the Earth Rover Challenge at IROS 2024")
+- IROS 2026 로보틱스 챌린지 3건 공동 주최 (Google DeepMind, NYU, Princeton, NUS 등 연구진과 함께)
+- 오픈 소스 Earth Rovers SDK 기여
+
+저희 단독이 아닌, FrodoBots 주도 컨소시엄의 공동 주최임을 명확히 합니다.
+
+### 세 가지 영역
+
+1. 응용 AI: LLM 앱, 에이전트, VLM, RAG, 온디바이스 추론
+2. 로보틱스 & 임바디드 AI: 자율 주행, 텔레오퍼레이션, SLAM, 플릿 관리
+3. 커넥티드 & 엣지 시스템: 온디바이스 추론, 센서 스트리밍, BLE·MQTT 텔레메트리
+
+### 포트폴리오
+
+- [Tocaro Blue](https://sanacompany.kr/ko/project/tocaro): 보트·차량·플릿을 실시간으로 모니터링하는 BLE 연동 모바일·웹 플랫폼.
+- [Earth Rovers](https://sanacompany.kr/ko/project/earth-rovers): ROS 기반 인식, 맞춤형 SLAM, 텔레오퍼레이션 인터페이스를 갖춘 자율 지상 로버 플릿.
+- [Wimbledon Hill](https://sanacompany.kr/ko/project/wimbledon-hill): 2021·2022 윔블던 대회용 웹 가상 경험. 동시 접속자 10,000명 이상 처리.
+- [Ultimate Fighting Bots](https://sanacompany.kr/ko/project/ufb): 전 세계 플레이어가 조종하는 실제 휴머노이드 로봇 격투. SANA가 실시간 원격 제어 시스템과 룸 기반 게임 프론트엔드를 구축했습니다.
+- [The Rivals](https://sanacompany.kr/ko/project/rivals): SANA가 엔드 투 엔드로 개발한 비즈니스 시뮬레이션 게임. 플레이어 전략에 적응하는 AI 상대.
+- [Nalla 날라](https://sanacompany.kr/ko/project/nalla): 한국 공공자전거 재배치 솔루션. TensorFlow 기반 예측 모델과 맞춤형 대시보드 탑재.
+- [Leeloo](https://sanacompany.kr/ko/project/leeloo): Twitch, Kick, X에서 24시간 라이브 스트리밍하며 음성과 표정으로 채팅에 반응하는 3D AI 에이전트.
+- [UEFA Virtual Events](https://sanacompany.kr/ko/project/uefa): UEFA 챔피언스 리그 팬을 위한 글로벌 가상 환경. 아바타, 트리비아, 챌린지, 실시간 보상.
+- [Snapcell · TradePending](https://sanacompany.kr/ko/project/tradepending): 자동차 딜러십을 위한 비디오 커뮤니케이션 플랫폼. 2023년 TradePending에 인수.
+- [Sanctions Center](https://sanacompany.kr/ko/project/sanctions-center): 컴플라이언스·리걸 팀을 위한 글로벌 제재·수출 통제 정보 플랫폼.
+- [Beyond Med](https://sanacompany.kr/ko/project/beyond-med): 전통 의료보험이 다루지 않는 시술까지 제공하는 헬스·웰니스 멤버십 플랫폼.
+- [The Makers](https://sanacompany.kr/ko/project/makers): The Rivals의 가벼운 형제. 접근성에 최적화된 비즈니스 시뮬레이션 게임.
+
+### 문의
+
+- Santiago에게 직접: santiago@sanacompany.io
+- 한국 문의: korea@sanacompany.kr
+- LinkedIn: https://www.linkedin.com/company/sanacompany
+- 서울 오피스: 서울특별시 강남구 강남대로112길 47

@@ -1,0 +1,11 @@
+# SANA
+
+> Physical-AI and applied-AI engineering firm. 50+ projects shipped. IEEE-published. Co-organizers of three IROS 2026 robotics challenges. Florida HQ, Seoul office.
+
+- Homepage (EN): https://sanacompany.io/
+- Homepage (KO): https://sanacompany.kr/ko
+- Frontier (research, IEEE, IROS, open data): https://sanacompany.io/#frontier
+- Pillars (applied AI, robotics, edge): https://sanacompany.io/#pillars
+- Work: https://sanacompany.io/#portfolio
+- Team: https://sanacompany.io/#team
+- Contact Santiago: santiago@sanacompany.io
