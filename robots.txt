@@ -39,5 +39,8 @@ Allow: /
 User-agent: Daumoa
 Allow: /
 
+# SANA Company (SANA IT Solutions LLC), sanacompany.io
+# Applied AI and robotics engineering. Coconut Creek, Florida and Seoul, Korea.
+# Structured context for AI agents: /llms.txt and /llms-full.txt
+
 Sitemap: https://sanacompany.io/sitemap.xml
-Sitemap: https://sanacompany.kr/sitemap.xml
