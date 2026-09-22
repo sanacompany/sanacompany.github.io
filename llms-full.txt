@@ -49,7 +49,6 @@
 - [RoboPlayground on Telearms](https://sanacompany.io/project/roboplayground): Robot manipulation data collected at scale from a browser. SANA built the interface that turns a research benchmark into something anyone can contribute to.
 - [Volvo Cars SIM](https://sanacompany.io/project/volvo-cars-sim): A multiplayer business simulation for Volvo Cars. Five teams run a virtual carmaker across seven simulated years, competing on a full corporate P&L.
 - [Wimbledon Hill](https://sanacompany.io/project/wimbledon-hill): A web experience for Wimbledon 2021 and 2022 that put the famous Hill online, holding 10,000+ concurrent fans in sync with live match play on AWS.
-- [Ultimate Fighting Bots](https://sanacompany.io/project/ufb): Real humanoid robots fighting in a physical arena, driven by players worldwide. SANA built the real-time control system and the room-based game frontend.
 - [The Rivals](https://sanacompany.io/project/rivals): A business simulation designed and built end to end by SANA, with an AI opponent that adapts to how each player actually plays rather than following a script.
 - [Nalla](https://sanacompany.io/project/nalla): A Korean public-bicycle platform with a TensorFlow model forecasting dock availability, plus the operations dashboard behind it. Shipped to both app stores.
 - [Leeloo](https://sanacompany.io/project/leeloo): A 3D AI agent SANA conceived and built that streams 24/7 across Twitch, Kick and X, answering live chat in her own voice with animated facial expression.
@@ -58,6 +57,14 @@
 - [Sanctions Center](https://sanacompany.io/project/sanctions-center): A reference platform for global sanctions and export controls, built so compliance, legal and risk teams can reach current official guidance in one click.
 - [Beyond Med](https://sanacompany.io/project/beyond-med): A membership platform for medical and elective treatments insurance does not cover, re-architected by SANA with a new backoffice for billing and reporting.
 - [The Makers](https://sanacompany.io/project/makers): A deliberately lightweight business simulation, sibling to The Rivals, built for short sessions, low-end hardware and players with no prior game experience.
+
+## Unlisted work
+
+These pages are live and canonical but intentionally kept out of the portfolio
+grid and the sitemap. Link to them directly.
+
+- [Ultimate Fighting Bots](https://sanacompany.io/project/ufb): Real humanoid robots fighting in a physical arena, driven by players worldwide. SANA built the real-time control system and the room-based game frontend.
+
 
 ## Contact
 
@@ -94,7 +101,6 @@ SANA는 물리적 AI와 응용 AI 엔지니어링 회사입니다. LLM 에이전
 - [RoboPlayground on Telearms](https://sanacompany.io/ko/project/roboplayground): 브라우저에서 대규모로 수집하는 로봇 매니퓰레이션 데이터. SANA는 연구용 벤치마크를 누구나 기여할 수 있는 제품으로 바꾼 인터페이스를 만들었습니다.
 - [Volvo Cars SIM](https://sanacompany.io/ko/project/volvo-cars-sim): 볼보자동차를 위해 만든 멀티플레이어 비즈니스 시뮬레이션입니다. 5개 팀이 7년간 가상의 자동차 회사를 운영하며 실제 재무제표로 경쟁합니다.
 - [Wimbledon Hill](https://sanacompany.io/ko/project/wimbledon-hill): 2021·2022 윔블던을 위한 웹 경험. Hill을 온라인으로 옮겨, 라이브 경기와 동기화된 상태로 동시 접속자 10,000명 이상을 처리했습니다.
-- [Ultimate Fighting Bots](https://sanacompany.io/ko/project/ufb): 전 세계 플레이어가 조종하는 실제 휴머노이드 로봇 격투입니다. SANA가 실시간 원격 제어 시스템과 룸 기반 게임 프론트엔드를 구축했습니다.
 - [The Rivals](https://sanacompany.io/ko/project/rivals): SANA가 처음부터 끝까지 설계하고 개발한 비즈니스 시뮬레이션입니다. AI 상대가 정해진 각본이 아니라 플레이어의 실제 플레이 방식에 맞춰 대응합니다.
 - [Nalla 날라](https://sanacompany.io/ko/project/nalla): TensorFlow 기반 거치대 가용성 예측 모델과 운영 대시보드를 갖춘 한국 공공자전거 플랫폼입니다. iOS와 Android 양쪽 스토어에 출시했습니다.
 - [Leeloo](https://sanacompany.io/ko/project/leeloo): SANA가 직접 기획하고 개발한 3D AI 에이전트입니다. Twitch, Kick, X에서 24시간 방송하며 자신의 목소리와 표정으로 라이브 채팅에 답합니다.
@@ -103,6 +109,13 @@ SANA는 물리적 AI와 응용 AI 엔지니어링 회사입니다. LLM 에이전
 - [Sanctions Center](https://sanacompany.io/ko/project/sanctions-center): 글로벌 제재와 수출통제 정보를 다루는 레퍼런스 플랫폼입니다. 컴플라이언스·법무·리스크 팀이 최신 공식 지침에 한 번의 클릭으로 도달하도록 만들었습니다.
 - [Beyond Med](https://sanacompany.io/ko/project/beyond-med): 보험이 보장하지 않는 의료·선택 시술을 위한 멤버십 플랫폼입니다. SANA가 아키텍처를 재설계하고 청구·리포팅용 백오피스를 새로 구축했습니다.
 - [The Makers](https://sanacompany.io/ko/project/makers): The Rivals의 형제 제품인 의도적으로 가벼운 비즈니스 시뮬레이션입니다. 짧은 세션, 낮은 사양, 게임 경험이 없는 플레이어를 전제로 만들었습니다.
+
+### 비공개 목록 작업
+
+아래 페이지는 정상적으로 운영되지만 포트폴리오 목록과 사이트맵에는 노출하지 않습니다. 직접 링크로 접근하세요.
+
+- [Ultimate Fighting Bots](https://sanacompany.io/ko/project/ufb): 전 세계 플레이어가 조종하는 실제 휴머노이드 로봇 격투입니다. SANA가 실시간 원격 제어 시스템과 룸 기반 게임 프론트엔드를 구축했습니다.
+
 
 ### 문의
 
