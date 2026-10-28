@@ -5,6 +5,7 @@
 Identity: SANA Company, legal name SANA IT Solutions LLC, at sanacompany.io. Applied-AI and robotics engineering. HQ Coconut Creek, Florida; office in Seoul. Led by Santiago Pravisani (CEO) and Esteban Fuhrmann (CTO).
 
 - Homepage (EN): https://sanacompany.io/
+- Homepage (ES): https://sanacompany.io/es
 - Homepage (KO): https://sanacompany.io/ko
 - Full context for AI agents: https://sanacompany.io/llms-full.txt
 - Frontier (research, IEEE, IROS, open data): https://sanacompany.io/#frontier
