@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+    <meta name="referrer" content="strict-origin" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Private deck · SANA</title>
+    <meta name="description" content="Shared privately by SANA Company. Password required." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SANA Company" />
+    <meta property="og:title" content="Private deck · SANA" />
+    <meta
+      property="og:description"
+      content="Shared privately by SANA Company. Password required."
+    />
+    <meta property="og:image" content="https://sanacompany.io/banner.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="preload" href="/decks/montserrat.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/decks/gate.css?v=84c8bbce58" />
+    <script id="vault-config" type="application/json">
+      {"root":"/decks/","manifest":"/decks/vault/manifest.bin?v=20c0134771f7","bin":"/decks/vault/","salt":"SxBOpmEIhryJjfs6A+Q2Kw==","iterations":600000,"info":"sana-decks:enc:v1","storeKey":"sana-decks:key:25da944b9fa2"}
+    </script>
+    <script src="/decks/gate.js?v=9787f8b8e8" defer></script>
+  </head>
+  <body data-state="busy">
+    <main class="vault">
+      <section class="gate" aria-labelledby="gate-title">
+        <a class="brand" href="/" aria-label="SANA Company home"><img src="/decks/logo.svg" width="105" height="28" alt="SANA" /></a>
+
+        <div class="gate__locked">
+          <p class="eyebrow">Private decks</p>
+          <h1 id="gate-title" class="gate__title">Enter the password</h1>
+          <p class="gate__lede">
+            These decks are shared privately. Use the password that came with your link.
+          </p>
+          <form class="gate__form" id="gate-form" novalidate>
+            <label class="sr-only" for="gate-password">Password</label>
+            <div class="field">
+              <input
+                id="gate-password"
+                name="password"
+                type="password"
+                autocomplete="current-password"
+                autocapitalize="none"
+                autocorrect="off"
+                spellcheck="false"
+                placeholder="Password"
+                enterkeyhint="go"
+                required
+              />
+              <button
+                type="button"
+                class="field__toggle"
+                id="gate-toggle"
+                aria-label="Show password"
+                aria-pressed="false"
+              >
+                Show
+              </button>
+            </div>
+            <button class="btn btn--block" type="submit">Unlock</button>
+            <p class="gate__msg" id="gate-msg" role="alert" aria-live="assertive"></p>
+          </form>
+        </div>
+
+        <div class="gate__busy" aria-live="polite">
+          <span class="spinner" aria-hidden="true"></span>
+          <span id="gate-busy">Unlocking…</span>
+        </div>
+
+        <div class="gate__missing">
+          <p class="eyebrow">Private decks</p>
+          <h1 class="gate__title">This deck is not available</h1>
+          <p class="gate__lede">The link may be outdated, or the deck was removed.</p>
+          <a class="btn btn--block" href="/decks/">See all decks</a>
+        </div>
+      </section>
+
+      <section class="library" id="library" aria-labelledby="library-title" hidden>
+        <header class="library__head">
+          <a class="brand" href="/" aria-label="SANA Company home"><img src="/decks/logo.svg" width="105" height="28" alt="SANA" /></a>
+          <button type="button" class="btn btn--ghost btn--sm" id="lock-btn">Lock</button>
+        </header>
+        <div class="library__intro">
+          <p class="eyebrow">Private · <span id="library-count"></span></p>
+          <h1 id="library-title" class="library__title">Decks</h1>
+          <p class="library__lede">
+            Each deck has its own link. Anyone you share a link with also needs the password.
+          </p>
+        </div>
+        <ul class="library__list" id="library-list"></ul>
+      </section>
+    </main>
+    <noscript>
+      <p class="noscript">JavaScript is required to open this page.</p>
+    </noscript>
+  </body>
+</html>
